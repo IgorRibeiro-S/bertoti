@@ -27,3 +27,15 @@ Fui o responsável por criar e desenvolver a entidade, repository, resource, ser
 
 Utilizei padrões, técnicas e boas práticas a fim de desenvolver um codigo limpo e de fácil manutenção.
 
+<h3> Aprendizados Efetivos HS </h3>
+
+O projeto proposto pela empresa Midall foi o primeiro sistema web com o qual trabalhei. Em seu desenvolvimento, obtive meu primeiro contato com conceitos bases para todo profissional desenvolvedor de software. Abaixo estão algumas tecnologias aprendidas no semestre:
+
+protocolo HTTP;
+Requisição GET, POST, PUT, DELETE;
+O que é um JSON e como ele funciona na comunicação de sistemas web;
+O que é um framework web e qual sua utilidade na construção de sistemas;
+
+Nesse projeto atuei como Scrum Master e Dev, onde pude aprender na prática como a metodologia ágil (Scrum) ajuda e organiza o projeto como um todo. Na função como dev tive aprender matérias que foram essenciais para o desenvolvimento do projeto, como: Estrutura de dados, Framework Quarkus e Programação em BD. Aprendi como estruturar um back-end com códigos limpos e organizados, fazendo uso das convenções adotadas pela linguagem Java. 
+
+Uma prioridade que tivemos 
