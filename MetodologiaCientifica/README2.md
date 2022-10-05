@@ -33,9 +33,16 @@ O projeto proposto pela empresa Midall foi o primeiro sistema web com o qual tra
 
 protocolo HTTP;
 Requisição GET, POST, PUT, DELETE;
-O que é um JSON e como ele funciona na comunicação de sistemas web;
-O que é um framework web e qual sua utilidade na construção de sistemas;
+*O que é um JSON e como ele funciona na comunicação de sistemas web;
+*O que é um framework web e qual sua utilidade na construção de sistemas;
 
 Nesse projeto atuei como Scrum Master e Dev, onde pude aprender na prática como a metodologia ágil (Scrum) ajuda e organiza o projeto como um todo. Na função como dev tive aprender matérias que foram essenciais para o desenvolvimento do projeto, como: Estrutura de dados, Framework Quarkus e Programação em BD. Aprendi como estruturar um back-end com códigos limpos e organizados, fazendo uso das convenções adotadas pela linguagem Java. 
 
-Uma prioridade que foi pensada a todo momento, foi na experiência do usuário, tanto no back-end como no front-end. Por se tratar de um e-commerce era importante criar uma ferramenta que fosse de fácil utilização  uma importante aliada a 
+Uma prioridade que foi pensada a todo momento, foi na experiência do usuário, tanto no back-end como no front-end. Por se tratar de um e-commerce era importante criar uma ferramenta que fosse de fácil utilização, tanto para o Operador quanto para o Usuário final. 
+
+* Criação de uma API REST - HTTP
+* Consumo de API's externas
+* Dados relacionais
+Alguns pontos importantes de aprendizado nesse semestre foram:
+
+
