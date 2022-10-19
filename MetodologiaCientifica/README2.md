@@ -24,6 +24,13 @@ Fui o responsável por criar e desenvolver a entidade, repository, resource, ser
 <img src="https://user-images.githubusercontent.com/81486915/191624991-8470c457-d2b3-430e-9bd0-ee238b66ba7f.png">
 
 
+Também fui o responsável pela criação do acesso ao Banco de Dados com a anotação @ApplicationScoped, sendo utilizado pelo service com injeção de dependência.
+
+
+<img src="https://user-images.githubusercontent.com/81486915/196818992-35724316-ccbc-43be-a67e-146cd524d21c.png">
+
+<img src="https://user-images.githubusercontent.com/81486915/196819156-95a9dbcf-0372-4bf5-a2ef-64096daf32cc.png">
+
 
 Utilizei padrões, técnicas e boas práticas a fim de desenvolver um codigo limpo e de fácil manutenção.
 
