@@ -24,6 +24,13 @@ Cliente: <a href="https://www.midall.com.br/">MidAll</a>
 
 A ideia é criar um mini motor de regras com uma interface onde as regras das promoções possam ser cadastradas e aplicadas no momento que os itens forem para o carrinho de compras.
 
+<details>
+<summary>Mostrar exemplo</summary>
+<img src="https://user-images.githubusercontent.com/81486915/202873966-c6a51cc0-7cd5-419c-8c46-71edddff880a.jpg">
+<img src="https://user-images.githubusercontent.com/81486915/202873967-bac5b668-10ce-4db0-913e-f74d0fb02b18.jpg">
+<img src="https://user-images.githubusercontent.com/81486915/202873968-b1c1e222-fd5b-4bcb-9d2e-e78c81861b75.jpg">
+<img src="https://user-images.githubusercontent.com/81486915/202873969-11fead79-03e9-407c-983c-6cc6ab02a58e.jpg">
+</details>
 
 <h3> Tecnologias utilizadas </h3>
 
