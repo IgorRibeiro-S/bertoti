@@ -61,22 +61,25 @@ Fiz parte do time de Back-end, onde participei ativamente na criação dos CRUDs
 
 <details>
 <summary>Mostrar exemplo</summary>
-<img src="https://user-images.githubusercontent.com/81486915/191622260-1c4437f8-0fc9-4a55-93bd-25b381a55286.png">
+<img src="https://user-images.githubusercontent.com/81486915/191622260-1c4437f8-0fc9-4a55-93bd-25b381a55286.png"><br>
+↳ Diretório organizado conforme convenção da linguagem.
 </details>
 
 Fui o responsável por criar e desenvolver a entidade, repository, resource, service e DTO do Produto, onde também foi criado a lógico de validação de produto no estoque: 
 
 <details>
 <summary>Mostrar exemplo</summary>
-<img src="https://user-images.githubusercontent.com/81486915/191624904-1b53273a-a2f2-45af-bafc-cc3c16c00a34.png">
-<img src="https://user-images.githubusercontent.com/81486915/191624991-8470c457-d2b3-430e-9bd0-ee238b66ba7f.png">
+<img src="https://user-images.githubusercontent.com/81486915/191624904-1b53273a-a2f2-45af-bafc-cc3c16c00a34.png"><br>
+<img src="https://user-images.githubusercontent.com/81486915/191624991-8470c457-d2b3-430e-9bd0-ee238b66ba7f.png"><br>
+ ↳ Os códigos acima tratam da entidade Produto e Método onde é validado a lógica de verificar a disponibilidade do produto.
 </details>
 
 Também fui o responsável pela criação do acesso ao Banco de Dados com a anotação @ApplicationScoped, sendo utilizado pelo service com injeção de dependência.
 
 <details>
 <summary>Mostrar exemplo</summary>
-<img src="https://user-images.githubusercontent.com/81486915/196818992-35724316-ccbc-43be-a67e-146cd524d21c.png">
+<img src="https://user-images.githubusercontent.com/81486915/196818992-35724316-ccbc-43be-a67e-146cd524d21c.png"><br>
+ ↳ Exemplo de Repository da entiadde Produto, o código faz o processo de GET e POST na conexão com o banco de dados pela camada do panache entity.
 </details>
 
 <details>
