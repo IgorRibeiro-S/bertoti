@@ -79,12 +79,13 @@ Também fui o responsável pela criação do acesso ao Banco de Dados com a anot
 <details>
 <summary>Mostrar exemplo</summary>
 <img src="https://user-images.githubusercontent.com/81486915/196818992-35724316-ccbc-43be-a67e-146cd524d21c.png"><br>
- ↳ Exemplo de Repository da entiadde Produto, o código faz o processo de GET e POST na conexão com o banco de dados pela camada do panache entity.
+ ↳ Código do Repository da entiadde Produto, o código faz o processo de GET e POST na conexão com o banco de dados pela camada do panache entity.
 </details>
 
 <details>
 <summary>Mostrar exemplo</summary>
-<img src="https://user-images.githubusercontent.com/81486915/196819156-95a9dbcf-0372-4bf5-a2ef-64096daf32cc.png">
+<img src="https://user-images.githubusercontent.com/81486915/196819156-95a9dbcf-0372-4bf5-a2ef-64096daf32cc.png"><br>
+ ↳ Código do ProdutoService onde é realizado a camada de Service da entidade Produto, sendo feito a injeção de depêndencia do repository.
 </details>
 
 
@@ -102,6 +103,7 @@ Requisição GET, POST, PUT, DELETE;
 <details>
 <summary>Mostrar exemplo</summary>
 <img src="https://user-images.githubusercontent.com/81486915/202873593-38a6e11f-0380-4949-9052-d156aeaee534.png">
+ ↳ Classe ProdutoResource que faz parte da camada dos Controllers, com os métodos HTTP: GET, POST, DELETE e UPDATE. Também fazendo a injeção de dependência da classe Service
 </details>
  
 Nesse projeto atuei como Scrum Master e Dev, onde pude aprender na prática como a metodologia ágil (Scrum) ajuda e organiza o projeto como um todo. Na função como dev tive aprender matérias que foram essenciais para o desenvolvimento do projeto, como: Estrutura de dados, Framework Quarkus e Programação em BD. Aprendi como estruturar um back-end com códigos limpos e organizados, fazendo uso das convenções adotadas pela linguagem Java. 
