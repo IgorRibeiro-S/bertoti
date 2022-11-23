@@ -9,7 +9,7 @@ Olá, seja bem-vindo. Sou o Igor Ribeiro, estudante de Banco de Dados pela FATEC
 Meu primeiro contato com a Linguagem foi em 2021, com aulas na FATEC. Atualmente utilizo e atuo com a Linguagem Java(8 e 11), com forte atuação no Back-end, conhcimento sólido no Java (8 e 11)  como : Expresssões lambda, Padrões de projetos, Java persistence, web services, micro services.
 Também possuo conhecimento em alguns Frameworks da linguagem: Spring, SpringBoot, Quarkus, JavaFX e Hibernate ORM.
 
-<h2>Projeto 3: 3º Semestre de 2022</h2>
+<h2>Projeto 3: 1º Semestre de 2022</h2>
 <h3> Parceiro academico </h3>
 Projeto Integrador, Fatec Prof. Jessen Vidal - 2022. 3° Semestre
 Cliente: <a href="https://www.midall.com.br/">MidAll</a>
