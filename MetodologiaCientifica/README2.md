@@ -62,7 +62,7 @@ Fiz parte do time de Back-end, onde participei ativamente na criação dos CRUDs
 <details>
 <summary>Mostrar exemplo</summary>
 <img src="https://user-images.githubusercontent.com/81486915/191622260-1c4437f8-0fc9-4a55-93bd-25b381a55286.png"><br>
-↳ Diretório organizado conforme convenção da linguagem.
+↳ Diretório organizado conforme convenção da linguagem. Contendo os repositories, resources(controllers), services e entities. 
 </details>
 
 Fui o responsável por criar e desenvolver a entidade, repository, resource, service e DTO do Produto, onde também foi criado a lógico de validação de produto no estoque: 
@@ -71,7 +71,7 @@ Fui o responsável por criar e desenvolver a entidade, repository, resource, ser
 <summary>Mostrar exemplo</summary>
 <img src="https://user-images.githubusercontent.com/81486915/191624904-1b53273a-a2f2-45af-bafc-cc3c16c00a34.png"><br>
 <img src="https://user-images.githubusercontent.com/81486915/191624991-8470c457-d2b3-430e-9bd0-ee238b66ba7f.png"><br>
- ↳ Os códigos acima tratam da entidade Produto e Método onde é validado a lógica de verificar a disponibilidade do produto.
+ ↳ Os códigos acima tratam da entidade Produto e Método onde é validado a lógica de verificar a disponibilidade do produto. A Classe produto extende o PanacheEntity, camada extra da ORM (Object-Relational Mapping) que faz o mapeamento relacional com o banco de dados. No método setStatusProd é criado uma lógica onde recebe uma chamada nos Services, ao criar um Produto é realizado uma transação no banco de dados que informa a disponibilidade do produto como True, sendo possível altera-la de acordo com a regra de negócio.
 </details>
 
 Também fui o responsável pela criação do acesso ao Banco de Dados com a anotação @ApplicationScoped, sendo utilizado pelo service com injeção de dependência.
@@ -79,7 +79,7 @@ Também fui o responsável pela criação do acesso ao Banco de Dados com a anot
 <details>
 <summary>Mostrar exemplo</summary>
 <img src="https://user-images.githubusercontent.com/81486915/196818992-35724316-ccbc-43be-a67e-146cd524d21c.png"><br>
- ↳ Código do Repository da entiadde Produto, o código faz o processo de GET e POST na conexão com o banco de dados pela camada do panache entity.
+ ↳ Código do Repository da entidade Produto, o código faz o processo de GET e POST na conexão com o banco de dados pela camada do panache entity. Classe essa responsável das Querys e transações no banco de dados.
 </details>
 
 <details>
