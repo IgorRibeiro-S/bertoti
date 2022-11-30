@@ -3,6 +3,9 @@
 
 Olá, seja bem-vindo. Sou o Igor Ribeiro, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal.
 
+<img src="https://user-images.githubusercontent.com/81486915/204921113-a6501f99-91a7-4bff-8d98-9576f5fbe99c.jpg">
+
+
 <h3> Principais Conhecimentos </h3>
 
 <b>Java</b>
@@ -102,7 +105,7 @@ Requisição GET, POST, PUT, DELETE;
 - O que é e como funciona a conteinerização;
 <details>
 <summary>Mostrar exemplo</summary>
-<img src="https://user-images.githubusercontent.com/81486915/202873593-38a6e11f-0380-4949-9052-d156aeaee534.png">
+<img src="https://user-images.githubusercontent.com/81486915/202873593-38a6e11f-0380-4949-9052-d156aeaee534.png"><br>
  ↳ Classe ProdutoResource que faz parte da camada dos Controllers, com os métodos HTTP: GET, POST, DELETE e UPDATE. Também fazendo a injeção de dependência da classe Service. Também é utilizado na classe as anotações do Quarkus (PUT, GET, DELETE E POST) para os métodos que foram injetos do Service.
 </details>
  
