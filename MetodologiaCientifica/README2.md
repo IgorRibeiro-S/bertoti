@@ -120,6 +120,35 @@ Alguns pontos importantes de aprendizado nesse semestre foram:
 * Dados relacionais
 * conteinerização
 * Organização do diretório de arquivos
+<h1></h1>
+<h2>Projeto 1: 1º Semestre de 2021</h2>
+<h3> Parceiro academico </h3>
+Projeto Integrador, Fatec Prof. Jessen Vidal - 2021. 1° Semestre
+Cliente Interno: Profº Fabiano Sabah</a>
+<h3> Visão do Projeto </h3>
+Com o intuito de proporcionar aos estudantes uma maneira mais eficiente e organizada de gerenciar suas atividades acadêmicas e se manterem informados, foi desenvolvida a Athena - uma assistente pessoal de estudos. O que a torna especial é a sua capacidade de integrar diversas ferramentas úteis em um só lugar.<br>
+A ideia inicial do projeto era construir uma ferramenta capaz de auxiliar estudantes em suas rotinas, com a principal ideia de ser inclusiva para pessoas com deficiência visual. 
+<br>
+<details>
+<summary>Mostrar backlog do Produto</summary>
+<img src="https://user-images.githubusercontent.com/81486915/229939643-891abdaa-e090-49d2-8dd3-df5d5407d696.png">
+</details>
+<h3> Tecnologias utilizadas </h3>
+- Python
+- pydub
+- Tkinter
+- SpeechRecognition
+- PyAudio
+- pyttsx3
+- SQLite3
+- ismtplib
+- email.mime.text
+<h2> PYTHON </h2>
+Estruturei com a Linguagem Python a base de como seria o projeto. Onde atuei fortemente no reconhecimento de voz para texto com o SpeechRecognition.
+
+
+
+
 
 
 
