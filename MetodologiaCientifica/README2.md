@@ -144,8 +144,11 @@ A ideia inicial do projeto era construir uma ferramenta capaz de auxiliar estuda
 - ismtplib
 - email.mime.text
 <h2> PYTHON </h2>
-Estruturei com a Linguagem Python a base de como seria o projeto. Onde atuei fortemente no reconhecimento de voz para texto com o SpeechRecognition.
+Estruturei com a Linguagem Python a base de como seria o projeto. Onde atuei fortemente no reconhecimento de voz para texto com o SpeechRecognition e PyAudio.
+Parte essa importante no projeto onde era o Core da aplicação. Parte da dificuldade do projeto seriam criar dois tipos de motores principais, onde o primeiro motor precisa entender um texto e transforma-lo em voz e no segundo motor o caminho inverso, transformar voz em texto.
 
+![speak](https://user-images.githubusercontent.com/81486915/229943884-d166a94f-bc59-4013-8f06-a3209355d565.png)
+no código acima podemos notar onde foi definido a função de fala, passando um texto como argumento. Essa função não retorna nada apenas chama a Engine.
 
 
 
