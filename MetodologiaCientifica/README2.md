@@ -144,17 +144,58 @@ A ideia inicial do projeto era construir uma ferramenta capaz de auxiliar estuda
 - ismtplib
 - email.mime.text
 <h2> PYTHON </h2>
+<h3> Contribuições pessoais </h3>
 Estruturei com a Linguagem Python a base de como seria o projeto. Onde atuei fortemente no reconhecimento de voz para texto com o SpeechRecognition e PyAudio.
 Parte essa importante no projeto onde era o Core da aplicação. Parte da dificuldade do projeto seriam criar dois tipos de motores principais, onde o primeiro motor precisa entender um texto e transforma-lo em voz e no segundo motor o caminho inverso, transformar voz em texto.
 
-![speak](https://user-images.githubusercontent.com/81486915/229943884-d166a94f-bc59-4013-8f06-a3209355d565.png)
-no código acima podemos notar onde foi definido a função de fala, passando um texto como argumento. Essa função não retorna nada apenas chama a Engine.
 
+<details>
+<summary>Mostrar exemplo</summary>
+<img src="https://user-images.githubusercontent.com/81486915/229943884-d166a94f-bc59-4013-8f06-a3209355d565.png"/>
+   ↳ No código acima podemos notar onde foi definido a função de fala, passando um texto como argumento. Essa função não retorna nada apenas chama a Engine.
+</details>
 
+Também atuei na lógica de programação e como funciona a estrutura de um software simples. 
+Estruturei a parte funcional de retorno da assistente pessoal, ou seja o reconhecimento de algumas palavras pré setadas em memória. Assim seguindo e orientando o usuário a seguir um fluxo de conversa. 
 
+<details>
+<summary>Mostrar exemplo</summary>
+<img src="https://user-images.githubusercontent.com/81486915/235800030-f209a0ed-91ec-48c9-be13-b7578c53081d.png"/>
+  ↳ O código mostra alguns exemplos pré setados de comunicações com a assistente de voz. Essas palavras são armazenadas em memória ao momento que executar a aplicação.
+ Trata-se também de uma função em Python 3 que é chamada no runner.
+ </details>
 
+<h3> Aprendizados Efetivos HS </h3>
 
+Neste projeto que fomos desafiados pela FATEC, pude entender como funciona o inicio do SCRUM e como desenvolver um software com a implementação da lógica de programação.
 
+Dentro alguns conhecimentos técnicos, posso destacar: 
 
+- Lógica de programação o que é e como funciona Algoritmos.
+- Python 3 Utilizando python para criar uma aplicação.
+- Banco de dados em memória e como funciona o armazenamento simples de dados. 
+- Bibliotecas e como utilizar estruturas criadas por outros desenvolvedores.
+- Funções o que é e como retornar sua função.
+
+<details>
+<summary>Exemplo de import</summary>
+<img src="https://user-images.githubusercontent.com/81486915/235803193-5a33c858-79c7-4090-b68d-101b0bc0a4f3.png"/>
+ 
+ ↳ O código acima mostra como funciona os import na linguagem Python (algumas bibliotecas precisam do comando pip install + nome da lib)
+ </details>
+ 
+ <details>
+<summary>Exemplo de funções</summary>
+ <img src="https://user-images.githubusercontent.com/81486915/235803492-c3c1b6e3-4fbb-4d58-8b56-b04960cd3620.png"/>
+ 
+  ↳ No exemplo podemos ver como criar uma função e o que ela retorna. Também podemos passar parametros para essa função ou não. Em algumas funções utilizamos as bibliotecas que importamos anteriormente
+ </details>
+ 
+<details>
+<summary>Exemplo do run utilizando funções e bibliotecas</summary>
+<img src="https://user-images.githubusercontent.com/81486915/235803537-7a807b85-7a43-4424-8a74-01e5843d42f3.png"/>
+ 
+  ↳ No código acima é possível notar o run, a utilização de algumas bibliotecas e funções.
+ </details>
 
 
