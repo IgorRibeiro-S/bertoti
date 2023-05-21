@@ -198,5 +198,41 @@ Dentro alguns conhecimentos técnicos, posso destacar:
   ↳ No código acima é possível notar o run, a utilização de algumas bibliotecas e funções.
  </details>
 
-<h2>Projeto 4: 2º Semestre de 2022</h2>g
+<h2>Projeto 4: 2º Semestre de 2022</h2>
+<h3> Parceiro academico </h3>
+Projeto Integrador, Fatec Prof. Jessen Vidal - 2022. 4° Semestre
+Cliente: <a href="https://www.subiter.com/">Subiter</a>
+
+<br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/80851038/190831621-96d01aab-af9f-4b9b-a7c5-9e6419d287bb.jpeg" width="110"/>
+</p>
+
+<h3> Visão do Projeto </h3>
+Temos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
+<h3>Solução</h3>
+
+Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
+<h3> Contribuições pessoais </h3>
+Neste projeto atuei como desenvolvedor arquiteto do back-end, onde documentei a API com Swagger, configurei o Oracle Cloud como BD em nuvem,Segurança da API com niveis de acesso com o Spring Security + JWT, inicei a parte de Devops com o Deploy da aplicação e desenvolvi API's com relacionamentoss complexos utilizando o Spring Boot 2.7.
+
+![image](https://github.com/IgorRibeiro-S/bertoti/assets/81486915/f1426130-4552-42aa-a5dd-a3935f5e45fa)
+Classes de configuração de segurança SpringSecurity + JWT
+
+![image](https://github.com/IgorRibeiro-S/bertoti/assets/81486915/a8b6d46d-77cf-48f6-a2c5-ba0e99c02ca0)
+Configuração Wallet Oracle Cloud para BD em nuvem
+
+![image](https://github.com/IgorRibeiro-S/bertoti/assets/81486915/dc056021-a290-49a7-bead-f31f75ab8277)
+Exemplo da Classe Request que envolve diversos relacionamentos complexos
+
+![image](https://github.com/IgorRibeiro-S/bertoti/assets/81486915/b7941c3a-c58c-41cc-80c2-caf4e3138565)
+Exemplo do deploy da aplicação na plataforma do Heroku
+
+![image](https://github.com/IgorRibeiro-S/bertoti/assets/81486915/c610b2da-cbf5-415d-8732-022ca7903385)
+Classe de configuração da documentação da API com Swagger
+
+
+
+
+
 
