@@ -212,12 +212,17 @@ Cliente: <a href="https://www.subiter.com/">Subiter</a>
 Temos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
 <h3>Solução</h3>
 
+aqui vai as prints do projeto
+
 Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
 <h3> Contribuições pessoais </h3>
-Neste projeto atuei como desenvolvedor arquiteto do back-end, onde documentei a API com Swagger, configurei o Oracle Cloud como BD em nuvem,Segurança da API com niveis de acesso com o Spring Security + JWT, inicei a parte de Devops com o Deploy da aplicação e desenvolvi API's com relacionamentoss complexos utilizando o Spring Boot 2.7.
+Neste projeto atuei como desenvolvedor arquiteto do back-end, onde documentei a API com Swagger, configurei o Oracle Cloud como BD em nuvem,Segurança da API com niveis de acesso com o Spring Security + JWT, inicei a parte de Devops com o Deploy da aplicação, desenvolvi API'com relacionamentoss complexos utilizando o Spring Boot 2.7 e apliquei alguns padrões de projetos a fim de facilitar a manutenção no código e desacoplar algumas classes com interfaces.<br>
 
-![image](https://github.com/IgorRibeiro-S/bertoti/assets/81486915/f1426130-4552-42aa-a5dd-a3935f5e45fa)
-Classes de configuração de segurança SpringSecurity + JWT
+<details>
+<summary>Mostrar/recolher</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/f1426130-4552-42aa-a5dd-a3935f5e45fa"/><br>
+  ↳ Classes de configuração de segurança SpringSecurity + JWT. Classes responsáveis por criar o token de segurançã com expiração de 60 minutos, com o token gerado é possível saber o tipo de "ROLE" do usuário e que autorização ele possuí. Sendo Autenticação e Autorização. 
+</details>
 
 ![image](https://github.com/IgorRibeiro-S/bertoti/assets/81486915/a8b6d46d-77cf-48f6-a2c5-ba0e99c02ca0)
 Configuração Wallet Oracle Cloud para BD em nuvem
