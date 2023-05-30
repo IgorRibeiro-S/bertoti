@@ -129,10 +129,7 @@ Cliente Interno: Profº Fabiano Sabah</a>
 Com o intuito de proporcionar aos estudantes uma maneira mais eficiente e organizada de gerenciar suas atividades acadêmicas e se manterem informados, foi desenvolvida a Athena - uma assistente pessoal de estudos. O que a torna especial é a sua capacidade de integrar diversas ferramentas úteis em um só lugar.<br>
 A ideia inicial do projeto era construir uma ferramenta capaz de auxiliar estudantes em suas rotinas, com a principal ideia de ser inclusiva para pessoas com deficiência visual. 
 <br>
-<details>
-<summary>Mostrar backlog do Produto</summary>
-<img src="https://user-images.githubusercontent.com/81486915/229939643-891abdaa-e090-49d2-8dd3-df5d5407d696.png">
-</details>
+<br>
 <h3> Tecnologias utilizadas </h3>
 - Python
 - pydub
@@ -220,35 +217,35 @@ Neste projeto atuei como desenvolvedor arquiteto do back-end, onde documentei a 
 
 Com a tecnolgoia Spring Security + JWT do Spring Framework foi possível criar de forma fácil a forma de autenticação e autorização de usuários. Criando assim rotas seguras e autorização por login.
 <details>
-<summary>Mostrar/recolher</summary>
+<summary>Classes de implementação do security</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/f1426130-4552-42aa-a5dd-a3935f5e45fa"/><br>
   ↳ Classes de configuração de segurança SpringSecurity + JWT. Classes responsáveis por criar o token de segurançã com expiração de 60 minutos, com o token gerado é possível saber o tipo de "ROLE" do usuário e que autorização ele possuí. Sendo Autenticação e Autorização. 
 </details>
 
 Utilizei o banco de dados Oracle Cloud, sendo um upgrade no projeto e um desafio ao entender o mundo cloud. Então ao seguir a documentação oficial da Oracle, utilizei o conector Wallet para integração com o SpringBoot. 
 <details>
-<summary>Mostrar/recolher</summary>
+<summary>Configuração Wallet Oracle Cloud</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/a8b6d46d-77cf-48f6-a2c5-ba0e99c02ca0"/><br>
  ↳ Configuração Wallet Oracle Cloud para BD em nuvem, o wallet é um tipo de conexão segura do banco de dados Oracle Cloud com o framework SpringBoot Java.
  </details>
  
  Como a aplicação envolve diversos relacionamentos, sendo eles de muitos para um ou de muitos para muitos, utilizei o Spring Data JPA do SpringFramework, onde o framework cria esse relacionamento com as anotações entitymanager, sendo algumas como @Autowired (para injeção de dependência) @ID, @ManyToMany, @ManyToOne, etc. Os relacionamentos ocorrem por debaixo dos panos e cria a estrutura no Banco de Dados.
 <details>
-<summary>Mostrar/recolher</summary>
+<summary>Classe Request - Relacionamentos complexos</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/dc056021-a290-49a7-bead-f31f75ab8277"/><br>
- ↳ Exemplo da Classe Request que envolve diversos relacionamentos complexos, sendo relacionamentos de One to One, Many to One e Many to Many. Sendo documentada com o Swagger para facilitar visualização como funciona a API.
+ ↳ Exemplo da Classe Request que envolve diversos relacionamentos complexos, sendo relacionamentos de One to One, Many to One e Many to Many. 
 </details>
 
 A plataforma Heroku forneceu o deploy da aplicação, ou seja expor nossa API para o mundo. A plataforma é didática e dinâmica, e o deploy ocorreu fazendo o link com a branch do github.
 <details>
-<summary>Mostrar/recolher</summary>
+<summary>Deploy da aplicação do Heroku</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/b7941c3a-c58c-41cc-80c2-caf4e3138565"/><br>
  ↳ Exemplo do deploy da aplicação na plataforma do Heroku
 </details>
 
 Com o swagger é possível documentar a API de forma rápida e fácil. Implementei o Swagger para dinamizar a comunicação da API com o front-end e futuras integrações sistêmicas. 
 <details>
-<summary>Mostrar/recolher</summary>
+<summary>Classe de configuração Swagger</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/c610b2da-cbf5-415d-8732-022ca7903385"/><br>
  ↳ Classe de configuração da documentação da API com Swagger, o Swagger documenta a API de forma visual, criando um endpoint no servidor da aplicação. Facilitando a visualização para o time de desenvolvimento e integrações sistemicas.
 </details>
