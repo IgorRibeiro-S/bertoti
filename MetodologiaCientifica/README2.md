@@ -202,14 +202,22 @@ Cliente: <a href="https://www.subiter.com/">Subiter</a>
 
 <br>
 <p align="center">
- <img src="https://user-images.githubusercontent.com/80851038/190831621-96d01aab-af9f-4b9b-a7c5-9e6419d287bb.jpeg" width="110"/>
+ <img src="https://user-images.githubusercontent.com/80851038/190831621-96d01aab-af9f-4b9b-a7c5-9e6419d287bb.jpeg"/>
 </p>
 
 <h3> Visão do Projeto </h3>
 Temos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
+
+<details>
+<summary>Design da aplicação</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/10f197ad-b0af-414f-885d-2d26fb2c286b"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/011ad14d-32de-4944-8b66-b15b8d3c59e1"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/b06e9ce9-a737-4cef-b487-b8ae826b1c28"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/d5295eaa-015f-4ab2-b0f1-a58f36c0b012"/>
+</details>
+
 <h3>Solução</h3>
 
-aqui vai as prints do projeto
 
 Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
 <h3> Contribuições pessoais </h3>
@@ -260,5 +268,5 @@ Pensando na solução do problema deste projeto, foi possível desenvolver diver
 
 * Autenticação e Autorização (Spring security + JWT do SpringFramework) - A autenticação e autorização é fundamental na maioria dos serviços RESTful, então o aprendizado desta tecnologia se faz necessário para um desenvolvedor Back-end. 
 
-
+Neste semestre atuei como desenvolvedor Back-end da aplicação, onde as tecnologias e conceitos aprendidos foram essenciais para o avanço e desenvolvimento do projeto em si. Também foi onde pude demonstrar técnicas e designs que são chave para resolução de um problema real. 
 
