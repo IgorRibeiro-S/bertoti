@@ -238,17 +238,30 @@ Utilizei o banco de dados Oracle Cloud, sendo um upgrade no projeto e um desafio
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/dc056021-a290-49a7-bead-f31f75ab8277"/><br>
  ↳ Exemplo da Classe Request que envolve diversos relacionamentos complexos, sendo relacionamentos de One to One, Many to One e Many to Many. Sendo documentada com o Swagger para facilitar visualização como funciona a API.
 </details>
+
+A plataforma Heroku forneceu o deploy da aplicação, ou seja expor nossa API para o mundo. A plataforma é didática e dinâmica, e o deploy ocorreu fazendo o link com a branch do github.
 <details>
 <summary>Mostrar/recolher</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/b7941c3a-c58c-41cc-80c2-caf4e3138565"/><br>
  ↳ Exemplo do deploy da aplicação na plataforma do Heroku
 </details>
+
+Com o swagger é possível documentar a API de forma rápida e fácil. Implementei o Swagger para dinamizar a comunicação da API com o front-end e futuras integrações sistêmicas. 
 <details>
 <summary>Mostrar/recolher</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/c610b2da-cbf5-415d-8732-022ca7903385"/><br>
-Classe de configuração da documentação da API com Swagger, o Swagger documenta a API de forma visual, criando um endpoint no servidor da aplicação. Facilitando a visualização para o time de desenvolvimento e integrações sistemicas.
+ ↳ Classe de configuração da documentação da API com Swagger, o Swagger documenta a API de forma visual, criando um endpoint no servidor da aplicação. Facilitando a visualização para o time de desenvolvimento e integrações sistemicas.
 </details>
 
+<h3> Aprendizados Efetivos HS </h3>
+
+Pensando na solução do problema deste projeto, foi possível desenvolver diversas técnicas que são utilizadas no mercado. Neste projeto obtive um crescimento e conhecimento exponencial em tecnologias e aplicação de padrões de projeto. Sendo algumas: 
+
+* Padrôes de Projetos (design patterns) - Onde o mestre professor e orientador Giuliano Bertoti foi cirurgico na apresentação dos padrões utilizados no mercado e como podemos implementa-los numa aplicação. Criando assim uma aplicação sem fortes acoplamentos, de fácil manutenção e facilitando o reuso de classes/interfaces.
+
+* Computação em nuvem (Cloud computing) - A computação em nuvem é o presente, então se fez de extrema importância entender e aplicar o conceito no projeto. Utilizei o Oracle Cloud, na qual foi ensinado neste semestre. Então para mantermos a aplicação funcionando e disponível para o mundo, implementar o Banco de Dados em Nuvem se fez necessário.
+
+* Autenticação e Autorização (Spring security + JWT do SpringFramework) - A autenticação e autorização é fundamental na maioria dos serviços RESTful, então o aprendizado desta tecnologia se faz necessário para um desenvolvedor Back-end. 
 
 
 
