@@ -253,6 +253,11 @@ A plataforma Heroku forneceu o deploy da aplicação, ou seja expor nossa API pa
 
 Com o swagger é possível documentar a API de forma rápida e fácil. Implementei o Swagger para dinamizar a comunicação da API com o front-end e futuras integrações sistêmicas. 
 <details>
+<summary>Documentação de API com Swagger</summary>
+<img src"https://github.com/IgorRibeiro-S/bertoti/assets/81486915/00b360ed-299b-4ca9-82d8-32243b82902d"/>
+<img src"https://github.com/IgorRibeiro-S/bertoti/assets/81486915/1eb9e0dc-908c-461a-aa46-c65c9e275c3e"/>
+</details>
+<details>
 <summary>Classe de configuração Swagger</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/c610b2da-cbf5-415d-8732-022ca7903385"/><br>
  ↳ Classe de configuração da documentação da API com Swagger, o Swagger documenta a API de forma visual, criando um endpoint no servidor da aplicação. Facilitando a visualização para o time de desenvolvimento e integrações sistemicas.
@@ -263,6 +268,11 @@ Com o swagger é possível documentar a API de forma rápida e fácil. Implement
 Pensando na solução do problema deste projeto, foi possível desenvolver diversas técnicas que são utilizadas no mercado. Neste projeto obtive um crescimento e conhecimento exponencial em tecnologias e aplicação de padrões de projeto. Sendo algumas: 
 
 * Padrôes de Projetos (design patterns) - Onde o mestre professor e orientador Giuliano Bertoti foi cirurgico na apresentação dos padrões utilizados no mercado e como podemos implementa-los numa aplicação. Criando assim uma aplicação sem fortes acoplamentos, de fácil manutenção e facilitando o reuso de classes/interfaces.
+<details>
+<summary>Padrão Strategy</summary>
+<img src"https://github.com/IgorRibeiro-S/bertoti/assets/81486915/08799255-be81-4e13-b755-3b14a4e5987a"/>
+<img src"https://github.com/IgorRibeiro-S/bertoti/assets/81486915/f47ed177-2ce3-4b5b-89a4-8adfaf26b8d4"/>
+</details>
 
 * Computação em nuvem (Cloud computing) - A computação em nuvem é o presente, então se fez de extrema importância entender e aplicar o conceito no projeto. Utilizei o Oracle Cloud, na qual foi ensinado neste semestre. Então para mantermos a aplicação funcionando e disponível para o mundo, implementar o Banco de Dados em Nuvem se fez necessário.
 
