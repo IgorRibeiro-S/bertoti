@@ -103,6 +103,7 @@ Requisição GET, POST, PUT, DELETE;
 - O que é um JSON e como ele funciona na comunicação de sistemas web;
 - O que é um framework web e qual sua utilidade na construção de sistemas;
 - O que é e como funciona a conteinerização;
+- Arquitetura MVC
 <details>
 <summary>Mostrar exemplo</summary>
 <img src="https://user-images.githubusercontent.com/81486915/202873593-38a6e11f-0380-4949-9052-d156aeaee534.png"><br>
@@ -321,13 +322,14 @@ Foi desenvolvido uma aplicação desktop que monitore e apresente métricas refe
 
 <h3> Contribuições pessoais </h3>
 Neste projeto foi onde tive meu primeiro contato com a linguagem Java e onde foram os primeiros passos com a Programação orientada a objeto (POO). Atuei como desenvoldedor da lógica de conexão da aplicação com o JDBC, onde com esta conexão foi possível extrair metadados que foram consumidos na aplicação, sendo alguns metadados:
-- Tamanho do disco
-- Queries que mais consomem 
-- Queries mais lentas
-- Numero de deadlocks
-- Otimização de Operações de Entrada/Saída no Servidor
-- Queries que Mais Consomem Espaço Temporário no Servidor
-
+* Tamanho do disco
+* Queries que mais consomem 
+* Queries mais lentas
+* Numero de deadlocks
+* Otimização de Operações de Entrada/Saída no Servidor
+* Queries que Mais Consomem Espaço Temporário no Servidor
+<br>
+<br>
 Utilizando a conexão com o SGBD do PostgreSQL utilizando o JDBC do Java 11, foi possível extrair métricas e alertas que monitoram em tempo real a "saúde" do SGBD.
 No exemplo abaixo podemos ver um trecho do código onde é possível descobrir a Querie mais lenta, possibilitando assim melhoria de performance através de ajustes no código.
 <details>
@@ -349,7 +351,22 @@ Neste exemplo é possível otimizar operações de entrada/saída no servidor.
  ↳ Este código roda na MainClass, onde com aconexão mostrada no exemplo acima, utilizando o opConsumersTemporarySpace.entrySet().stream().
 </details>
  
+ <h3> Aprendizados Efetivos HS </h3>
+ O Projeto proposto pelo parceiro Necto Systems, foi o primeiro projeto que tive o contato com a linguaguem Java e tecnologias como JDBC, para conexão com BD. Projeto este que foi desafiador e que pude aprender uma nova linguagem, fortemente tipada e orientada a objetos e tecnologias tais como:
  
+ * O que é um Banco de Dados relacional
+ * Como se conectar com o Banco de Dados - JDBC
+ * O que é um SGBD
+ * Programação Orientada a Objetos (POO)
+ * O que são Wireframes
+ 
+ Vale destacar que o item de Programação Orientada a Objetos, com a linguagem Java (onde tudo é objeto) foi possível entender os pilares fundamentais da POO:
+ - Herança (tópico polêmico que com os Padrões de Projeto entedemos que não é tão legal assim)
+ - Polimorfismo
+ - Abstração
+ - Encapsulamento
+ 
+ E dentro dos pilares entendi como funciona os Metodos construtores, getters e setters. Também aprendi sobre convenções que são utilizadas por desenvolvedores da linguagem e no mercado de trabalho como por exemplo: CamelCase, getMetodo, setMetodo, etc.
 
 
 
