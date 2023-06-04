@@ -147,7 +147,7 @@ Parte essa importante no projeto onde era o Core da aplicação. Parte da dificu
 
 
 <details>
-<summary>Mostrar exemplo</summary>
+<summary>Função de fala</summary>
 <img src="https://user-images.githubusercontent.com/81486915/229943884-d166a94f-bc59-4013-8f06-a3209355d565.png"/>
    ↳ No código acima podemos notar onde foi definido a função de fala, passando um texto como argumento. Essa função não retorna nada apenas chama a Engine.
 </details>
@@ -156,7 +156,7 @@ Também atuei na lógica de programação e como funciona a estrutura de um soft
 Estruturei a parte funcional de retorno da assistente pessoal, ou seja o reconhecimento de algumas palavras pré setadas em memória. Assim seguindo e orientando o usuário a seguir um fluxo de conversa. 
 
 <details>
-<summary>Mostrar exemplo</summary>
+<summary>Gatilhos que acionam a Assistente</summary>
 <img src="https://user-images.githubusercontent.com/81486915/235800030-f209a0ed-91ec-48c9-be13-b7578c53081d.png"/>
   ↳ O código mostra alguns exemplos pré setados de comunicações com a assistente de voz. Essas palavras são armazenadas em memória ao momento que executar a aplicação.
  Trata-se também de uma função em Python 3 que é chamada no runner.
@@ -220,6 +220,20 @@ Temos um desafio de sincronização dos dados administrativos, financeiros e ope
 
 
 Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
+
+<h3> Tecnologias utilizadas </h3>
+
+- Linguagem Java 11;
+- Banco de Dados Relacional - Oracle Cloud;
+- SpringFramework - SpringBoot
+- VueJs
+- JavaScript
+- SaaS
+- Swagger
+- ORM
+- Maven
+
+
 <h3> Contribuições pessoais </h3>
 Neste projeto atuei como desenvolvedor arquiteto do back-end, onde documentei a API com Swagger, configurei o Oracle Cloud como BD em nuvem,Segurança da API com niveis de acesso com o Spring Security + JWT, inicei a parte de Devops com o Deploy da aplicação, desenvolvi API'com relacionamentoss complexos utilizando o Spring Boot 2.7 e apliquei alguns padrões de projetos a fim de facilitar a manutenção no código e desacoplar algumas classes com interfaces.<br><br>
 
@@ -279,4 +293,64 @@ Pensando na solução do problema deste projeto, foi possível desenvolver diver
 * Autenticação e Autorização (Spring security + JWT do SpringFramework) - A autenticação e autorização é fundamental na maioria dos serviços RESTful, então o aprendizado desta tecnologia se faz necessário para um desenvolvedor Back-end. 
 
 Neste semestre atuei como desenvolvedor Back-end da aplicação, onde as tecnologias e conceitos aprendidos foram essenciais para o avanço e desenvolvimento do projeto em si. Também foi onde pude demonstrar técnicas e designs que são chave para resolução de um problema real. 
+
+
+<h2>Projeto 2: 2º Semestre de 2021</h2>
+<h3> Parceiro academico </h3>
+Projeto Integrador, Fatec Prof. Jessen Vidal - 2021. 2° Semestre
+Cliente: <a href="http://necto.com.br/pt/">NECTO Systems</a>
+
+<br>
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/80851038/133914328-794317fa-31e1-4279-afb0-d986acb5db45.png" width="320"/>
+</p>
+
+<h3> Visão do Projeto </h3>
+O **desafio** consiste em apresentar para o cliente Necto Systems, uma solução referente ao problema no monitoramento de um ou mais SGBDs remotos, bem como na coleta de métricas de funcionamento dos Banco de Dados presentes nos servidores da empresa. 
+
+<h3>Solução</h3> 
+Foi desenvolvido uma aplicação desktop que monitore e apresente métricas referentes ao uso e a saúde do SGBD em tempo real. Além de  oferecer um pós gerenciamento de múltiplos BDs no servidor, como diferencial.
+
+<h3> Tecnologias utilizadas </h3>
+
+- Linguagem Java 11;
+- Banco de Dados Relacional - PostgreSql;
+- JDBC
+- Terminal
+- SQLite
+
+<h3> Contribuições pessoais </h3>
+Neste projeto foi onde tive meu primeiro contato com a linguagem Java e onde foram os primeiros passos com a Programação orientada a objeto (POO). Atuei como desenvoldedor da lógica de conexão da aplicação com o JDBC, onde com esta conexão foi possível extrair metadados que foram consumidos na aplicação, sendo alguns metadados:
+- Tamanho do disco
+- Queries que mais consomem 
+- Queries mais lentas
+- Numero de deadlocks
+- Otimização de Operações de Entrada/Saída no Servidor
+- Queries que Mais Consomem Espaço Temporário no Servidor
+
+Utilizando a conexão com o SGBD do PostgreSQL utilizando o JDBC do Java 11, foi possível extrair métricas e alertas que monitoram em tempo real a "saúde" do SGBD.
+No exemplo abaixo podemos ver um trecho do código onde é possível descobrir a Querie mais lenta, possibilitando assim melhoria de performance através de ajustes no código.
+<details>
+<summary>Exemplo de código - Querie mais lenta</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/3b631d3f-d5c4-45ba-9dc3-982cb5bfd350"/><br>
+ ↳ Este código roda na MainClass, onde com o HashMap<String, String> TopSlowestQueries = con.getTopSlowestQueries(); é possível extrair dados de Chave e Valor diretamente da variavel con (private Connection con) com o metodo con.getTopSlowestQueries();
+</details>
+
+Neste exemplo é possível otimizar operações de entrada/saída no servidor.
+<details>
+<summary>Exemplo de código - Otimização de Operações de Entrada/Saída no Servidor</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/9850a889-d82a-4bca-b3cc-cedda702baff"/><br>
+ ↳ Este código roda na MainClass, onde com aconexão mostrada no exemplo acima, utilizando o topIOIntensiveQueries.entrySet().stream() que depois de mapeadas, é possível utilizar um statement execute update para otimizar as queries.
+</details>
+
+<details>
+<summary>Exemplo de código - Métrica: Queries Que Mais Consomem Espaço Temporário no Servidorr</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/05fed502-a9f1-4bca-958e-727d87f194d2"/><br>
+ ↳ Este código roda na MainClass, onde com aconexão mostrada no exemplo acima, utilizando o opConsumersTemporarySpace.entrySet().stream().
+</details>
+ 
+ 
+
+
+
 
