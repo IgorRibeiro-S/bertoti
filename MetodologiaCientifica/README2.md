@@ -367,7 +367,7 @@ Neste exemplo é possível otimizar operações de entrada/saída no servidor.
  - Encapsulamento
  
  E dentro dos pilares entendi como funciona os Metodos construtores, getters e setters. Também aprendi sobre convenções que são utilizadas por desenvolvedores da linguagem e no mercado de trabalho como por exemplo: CamelCase, getMetodo, setMetodo, etc.
-
+O Java implementa os quatro pilares de forma bastante intuitiva, o que facilita o entendimento por parte do desenvolvedor. A abstração, o primeiro pilar, é implementado através de classes, que contém propriedades e métodos, de forma bastante simples. Já o encapsulamento é realizado através de propriedades privadas, auxiliadas por métodos especiais getters e setters,
 
 
 
