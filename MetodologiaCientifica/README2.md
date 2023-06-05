@@ -361,7 +361,7 @@ Neste exemplo é possível otimizar operações de entrada/saída no servidor.
  * O que são Wireframes
  
  Vale destacar que o item de Programação Orientada a Objetos, com a linguagem Java (onde tudo é objeto) foi possível entender os pilares fundamentais da POO:
- - Herança (tópico polêmico que com os Padrões de Projeto entedemos que não é tão legal assim)
+ - Herança (tópico polêmico que com os Padrões de Projeto entedemos que não é tão viável a utilização deste pilar)
  - Polimorfismo
  - Abstração
  - Encapsulamento
