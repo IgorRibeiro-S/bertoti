@@ -3,22 +3,20 @@
 
 Olá, seja bem-vindo. Sou o Igor Ribeiro, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal.
 
-<img src="https://user-images.githubusercontent.com/81486915/204921113-a6501f99-91a7-4bff-8d98-9576f5fbe99c.jpg">
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/e24cb92b-b4fc-4725-8f8b-45d49a48ae92.jpg" width="320">
 
 
 <h3> Principais Conhecimentos </h3>
 
 <b>Java</b>
-Meu primeiro contato com a Linguagem foi em 2021, com aulas na FATEC. Atualmente utilizo e atuo com a Linguagem Java(8, 11 e 17), com forte atuação no Back-end, conhcimento sólido no Java (8, 11, 17)  como : Expresssões lambda, Padrões de projetos, Java persistence, web services, micro services.
-Também possuo conhecimento em alguns Frameworks da linguagem: Spring, SpringBoot, Quarkus, JavaFX e Hibernate ORM.
+Meu primeiro contato com a linguagem foi em 2021, durante as aulas na FATEC. Atualmente, utilizo e trabalho com Java (versões 8, 11 e 17), com foco principalmente no Back-end. Possuo um conhecimento sólido em Java, incluindo expressões lambda, padrões de projetos, persistência de dados, serviços web e micro serviços. Além disso, tenho experiência com alguns frameworks da linguagem, como Spring, SpringBoot, Quarkus, JavaFX e Hibernate ORM.
 
 <h2>Projeto 1: 1º Semestre de 2021</h2>
 <h3> Parceiro academico </h3>
 Projeto Integrador, Fatec Prof. Jessen Vidal - 2021. 1° Semestre
 Cliente Interno: Profº Fabiano Sabah</a>
 <h3> Visão do Projeto </h3>
-Com o intuito de proporcionar aos estudantes uma maneira mais eficiente e organizada de gerenciar suas atividades acadêmicas e se manterem informados, foi desenvolvida a Athena - uma assistente pessoal de estudos. O que a torna especial é a sua capacidade de integrar diversas ferramentas úteis em um só lugar.<br>
-A ideia inicial do projeto era construir uma ferramenta capaz de auxiliar estudantes em suas rotinas, com a principal ideia de ser inclusiva para pessoas com deficiência visual. 
+Com o objetivo de proporcionar aos estudantes uma maneira mais eficiente e organizada de gerenciar suas atividades acadêmicas e se manterem informados, foi desenvolvida a Athena - uma assistente pessoal de estudos. O que a torna especial é a sua capacidade de integrar diversas ferramentas úteis em um só lugar. A ideia inicial do projeto era construir uma ferramenta capaz de auxiliar estudantes em suas rotinas, com ênfase na inclusão de pessoas com deficiência visual.
 <br>
 <br>
 <h3> Tecnologias utilizadas </h3>
@@ -33,8 +31,7 @@ A ideia inicial do projeto era construir uma ferramenta capaz de auxiliar estuda
 - email.mime.text
 <h2> PYTHON </h2>
 <h3> Contribuições pessoais </h3>
-Estruturei com a Linguagem Python a base de como seria o projeto. Onde atuei fortemente no reconhecimento de voz para texto com o SpeechRecognition e PyAudio.
-Parte essa importante no projeto onde era o Core da aplicação. Parte da dificuldade do projeto seriam criar dois tipos de motores principais, onde o primeiro motor precisa entender um texto e transforma-lo em voz e no segundo motor o caminho inverso, transformar voz em texto.
+Utilizei a linguagem Python para estruturar a base do projeto. Concentrei-me principalmente no reconhecimento de voz para texto, utilizando bibliotecas como SpeechRecognition e PyAudio. Esta foi uma parte crucial do projeto, sendo o núcleo da aplicação. Uma das principais complexidades do projeto foi a criação de dois tipos de motores distintos. O primeiro motor tinha a tarefa de compreender um texto e convertê-lo em voz, enquanto o segundo motor tinha a função inversa, ou seja, converter voz em texto.
 
 
 <details>
@@ -98,10 +95,10 @@ Cliente: <a href="http://necto.com.br/pt/">NECTO Systems</a>
 </p>
 
 <h3> Visão do Projeto </h3>
-O **desafio** consiste em apresentar para o cliente Necto Systems, uma solução referente ao problema no monitoramento de um ou mais SGBDs remotos, bem como na coleta de métricas de funcionamento dos Banco de Dados presentes nos servidores da empresa. 
+O **desafio** consiste em apresentar à Necto Systems uma solução para o problema de monitoramento de um ou mais SGBDs remotos, assim como na coleta de métricas de desempenho dos bancos de dados presentes nos servidores da empresa.
 
 <h3>Solução</h3> 
-Foi desenvolvido uma aplicação desktop que monitore e apresente métricas referentes ao uso e a saúde do SGBD em tempo real. Além de  oferecer um pós gerenciamento de múltiplos BDs no servidor, como diferencial.
+Foi desenvolvida uma aplicação desktop que monitora e apresenta métricas em tempo real, fornecendo informações sobre o uso e a saúde do SGBD. Além disso, oferece funcionalidades de pós-gerenciamento para múltiplos bancos de dados no servidor, o que é um diferencial significativo.
 
 <h3> Tecnologias utilizadas </h3>
 
@@ -112,7 +109,7 @@ Foi desenvolvido uma aplicação desktop que monitore e apresente métricas refe
 - SQLite
 
 <h3> Contribuições pessoais </h3>
-Neste projeto foi onde tive meu primeiro contato com a linguagem Java e onde foram os primeiros passos com a Programação orientada a objeto (POO). Atuei como desenvoldedor da lógica de conexão da aplicação com o JDBC, onde com esta conexão foi possível extrair metadados que foram consumidos na aplicação, sendo alguns metadados:
+Neste projeto, tive meu primeiro contato com a linguagem Java e dei meus primeiros passos na Programação Orientada a Objetos (POO). Atuei como desenvolvedor na criação da lógica de conexão da aplicação com o JDBC. Por meio dessa conexão, foi possível extrair metadados que foram utilizados na aplicação. Alguns desses metadados incluem:
 * Tamanho do disco
 * Queries que mais consomem 
 * Queries mais lentas
@@ -121,8 +118,7 @@ Neste projeto foi onde tive meu primeiro contato com a linguagem Java e onde for
 * Queries que Mais Consomem Espaço Temporário no Servidor
 <br>
 <br>
-Utilizando a conexão com o SGBD do PostgreSQL utilizando o JDBC do Java 11, foi possível extrair métricas e alertas que monitoram em tempo real a "saúde" do SGBD.
-No exemplo abaixo podemos ver um trecho do código onde é possível descobrir a Querie mais lenta, possibilitando assim melhoria de performance através de ajustes no código.
+Ao utilizar a conexão com o SGBD do PostgreSQL através do JDBC do Java 11, conseguimos extrair métricas e alertas para monitorar em tempo real a 'saúde' do SGBD. No exemplo abaixo, é possível ver um trecho de código que permite identificar a query mais lenta, possibilitando, assim, melhorias de performance por meio de ajustes no código.
 <details>
 <summary>Exemplo de código - Querie mais lenta</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/3b631d3f-d5c4-45ba-9dc3-982cb5bfd350"/><br>
@@ -143,7 +139,7 @@ Neste exemplo é possível otimizar operações de entrada/saída no servidor.
 </details>
  
  <h3> Aprendizados Efetivos HS </h3>
- O Projeto proposto pelo parceiro Necto Systems, foi o primeiro projeto que tive o contato com a linguaguem Java e tecnologias como JDBC, para conexão com BD. Projeto este que foi desafiador e que pude aprender uma nova linguagem, fortemente tipada e orientada a objetos e tecnologias tais como:
+O projeto proposto pelo parceiro Necto Systems foi o primeiro com o qual tive contato com a linguagem Java e tecnologias como o JDBC para conexão com banco de dados. Foi um projeto desafiador no qual pude aprender uma nova linguagem, fortemente tipada e orientada a objetos, além de tecnologias como:
  
  * O que é um Banco de Dados relacional
  * Como se conectar com o Banco de Dados - JDBC
@@ -151,14 +147,14 @@ Neste exemplo é possível otimizar operações de entrada/saída no servidor.
  * Programação Orientada a Objetos (POO)
  * O que são Wireframes
  
- Vale destacar que o item de Programação Orientada a Objetos, com a linguagem Java (onde tudo é objeto) foi possível entender os pilares fundamentais da POO:
- - Herança (tópico polêmico que com os Padrões de Projeto entedemos que não é tão viável a utilização deste pilar)
+ Vale destacar que, ao explorar a Programação Orientada a Objetos com a linguagem Java (onde tudo é um objeto), foi possível compreender os pilares fundamentais da POO:
+ - Herança (um tópico polêmico que, com a compreensão dos Padrões de Projeto, percebemos que nem sempre é a opção mais viável).
  - Polimorfismo
  - Abstração
  - Encapsulamento
  
- E dentro dos pilares entendi como funciona os Metodos construtores, getters e setters. Também aprendi sobre convenções que são utilizadas por desenvolvedores da linguagem e no mercado de trabalho como por exemplo: CamelCase, getMetodo, setMetodo, etc.
-O Java implementa os quatro pilares de forma bastante intuitiva, o que facilita o entendimento por parte do desenvolvedor. A abstração, o primeiro pilar, é implementado através de classes, que contém propriedades e métodos, de forma bastante simples. Já o encapsulamento é realizado através de propriedades privadas, auxiliadas por métodos especiais getters e setters,
+Dentro desses pilares, também aprendi sobre como funcionam os métodos construtores, getters e setters. Além disso, adquiri conhecimento sobre convenções amplamente utilizadas na linguagem e no mercado de trabalho, como, por exemplo, CamelCase, getMétodo, setMétodo, etc.
+O Java implementa os quatro pilares de forma bastante intuitiva, o que facilita a compreensão por parte do desenvolvedor. A abstração, sendo o primeiro pilar, é implementada através de classes, que contêm propriedades e métodos de forma bastante simples. Já o encapsulamento é realizado por meio de propriedades privadas, auxiliadas por métodos especiais como getters e setters.
 <h2>Projeto 3: 1º Semestre de 2022</h2>
 <h3> Parceiro academico </h3>
 Projeto Integrador, Fatec Prof. Jessen Vidal - 2022. 3° Semestre
@@ -198,8 +194,7 @@ A ideia é criar um mini motor de regras com uma interface onde as regras das pr
 
 <h3><b>QUARKUS</h3></b>
 
-Tive meu primeiro contato com um Framework back-end com o Quarkus, sendo voltado para Web services e Microservices, trata-se de uma tecnologia forte e confiável, tendo grande impacto positivo no projeto. Com o Quarkus, fui capaz de criar e implementar conceitos dos padrões de projetos, como inversão de controle e Injeção de dependência. 
-É uma tecnoclogia que possui o hot reload no back-end, ou seja, a cada alteração no projeto ele restarta a aplicação sem a necessidade de uma nova compilação, ajudando a encontrar presença de bugs e otimizando o tempo.
+Tive meu primeiro contato com um framework back-end ao utilizar o Quarkus, voltado para Web Services e Microservices. Trata-se de uma tecnologia robusta e confiável, que teve um grande impacto positivo no projeto. Com o Quarkus, fui capaz de implementar conceitos de padrões de projeto, como inversão de controle e injeção de dependência. Além disso, é uma tecnologia que oferece hot reload no back-end, o que significa que a aplicação é reiniciada a cada alteração no projeto sem a necessidade de uma nova compilação, o que facilita a detecção de bugs e otimiza o tempo de desenvolvimento.
 
 
 <h3> Contribuições pessoais </h3>
@@ -310,7 +305,9 @@ Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serv
 
 
 <h3> Contribuições pessoais </h3>
-Neste projeto atuei como desenvolvedor arquiteto do back-end, onde documentei a API com Swagger, configurei o Oracle Cloud como BD em nuvem,Segurança da API com niveis de acesso com o Spring Security + JWT, inicei a parte de Devops com o Deploy da aplicação, desenvolvi API'com relacionamentoss complexos utilizando o Spring Boot 2.7 e apliquei alguns padrões de projetos a fim de facilitar a manutenção no código e desacoplar algumas classes com interfaces.<br><br>
+Neste projeto, atuei como desenvolvedor e arquiteto do back-end. Fui responsável por documentar a API com o Swagger, configurar o Oracle Cloud como banco de dados em nuvem e implementar a segurança da API com níveis de acesso utilizando o Spring Security + JWT. Também iniciei a parte de DevOps com o deploy da aplicação.
+
+Desenvolvi APIs com relacionamentos complexos utilizando o Spring Boot 2.7 e apliquei alguns padrões de projeto para facilitar a manutenção do código e desacoplar algumas classes por meio de interfaces.<br><br>
 
 Com a tecnolgoia Spring Security + JWT do Spring Framework foi possível criar de forma fácil a forma de autenticação e autorização de usuários. Criando assim rotas seguras e autorização por login.
 <details>
@@ -326,7 +323,7 @@ Utilizei o banco de dados Oracle Cloud, sendo um upgrade no projeto e um desafio
  ↳ Configuração Wallet Oracle Cloud para BD em nuvem, o wallet é um tipo de conexão segura do banco de dados Oracle Cloud com o framework SpringBoot Java.
  </details>
  
- Como a aplicação envolve diversos relacionamentos, sendo eles de muitos para um ou de muitos para muitos, utilizei o Spring Data JPA do SpringFramework, onde o framework cria esse relacionamento com as anotações entitymanager, sendo algumas como @Autowired (para injeção de dependência) @ID, @ManyToMany, @ManyToOne, etc. Os relacionamentos ocorrem por debaixo dos panos e cria a estrutura no Banco de Dados.
+Como a aplicação envolve diversos tipos de relacionamentos, incluindo muitos para um e muitos para muitos, utilizei o Spring Data JPA do Spring Framework. O framework facilita a criação desses relacionamentos através de anotações como @Entity, @Autowired (para injeção de dependência), @ID, @ManyToMany, @ManyToOne, entre outras. Os relacionamentos ocorrem de forma automática e o framework cria a estrutura no Banco de Dados.
 <details>
 <summary>Classe Request - Relacionamentos complexos</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/dc056021-a290-49a7-bead-f31f75ab8277"/><br>
@@ -368,3 +365,59 @@ Pensando na solução do problema deste projeto, foi possível desenvolver diver
 * Autenticação e Autorização (Spring security + JWT do SpringFramework) - A autenticação e autorização é fundamental na maioria dos serviços RESTful, então o aprendizado desta tecnologia se faz necessário para um desenvolvedor Back-end. 
 
 Neste semestre atuei como desenvolvedor Back-end da aplicação, onde as tecnologias e conceitos aprendidos foram essenciais para o avanço e desenvolvimento do projeto em si. Também foi onde pude demonstrar técnicas e designs que são chave para resolução de um problema real. 
+
+<h2>Projeto 5: 1º Semestre de 2023</h2>
+<h3> Parceiro academico </h3>
+Projeto Integrador, Fatec Prof. Jessen Vidal - 2023. 5° Semestre
+Cliente: <a href="https://www.midall.com.br/">MidAll</a>
+
+<br><p>
+ <a href="https://www.midall.com.br/"><img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="110"/></a>
+</p>
+
+<h3> Visão do Projeto </h3>
+O projeto visa automatizar o processo de download de arquivos de uma plataforma, transferindo-os para a nuvem. Isso será realizado por meio do desenvolvimento de uma aplicação tipo serviço. Para o usuário, a aplicação oferecerá um menu de configuração onde serão inseridos os parâmetros necessários para o serviço de download funcionar de forma automática. Em caso de erros durante o processamento, a aplicação irá gerar alertas.
+
+Além disso, a aplicação irá armazenar os metadados dos arquivos. Esses dados serão utilizados para criar um painel de controle que permitirá monitorar a execução do serviço. Também será possível realizar análises detalhadas dos resultados e indicadores, como o número de arquivos transferidos, a quantidade de bytes transferidos e o tempo de transferência, entre outros.
+
+<details>
+<summary>Design da aplicação</summary>
+</details>
+
+<h3> Tecnologias utilizadas </h3>
+
+- Linguagem Java 17;
+- AWS S3 bucket;
+- Plataforma Google Cloud
+- SpringFramework - SpringBoot
+- VueJs
+- JavaScript
+- SaaS
+- Swagger
+- ORM
+- Maven
+
+<h3> Contribuições pessoais </h3>
+Como responsável pelo desenvolvimento backend, liderei a implementação de um sistema robusto de integrações. Isso envolveu a integração com o AWS S3 Bucket e o Google Drive do Google Cloud, proporcionando uma solução eficiente para o armazenamento e gerenciamento de arquivos.
+
+Além disso, assumi a responsabilidade pelos testes automatizados utilizando JUnit e Mockito, garantindo a confiabilidade e estabilidade do sistema. Dado o caráter complexo do sistema de integrações, foi necessário lidar com a complexidade de consumir duas APIs distintas de maneira eficaz e eficiente.
+
+Ao longo do projeto, pude aprimorar minhas habilidades em integrações cloud e testes automatizados, contribuindo significativamente para o sucesso e a confiabilidade da aplicação.
+
+COLOCAR DETAILS AQUI DA PARTE DO CÓDIGO
+
+<h3> Aprendizados Efetivos HS </h3>
+Durante esse período, adquiri conhecimento essencial em Continuous Integration (CI), focando especialmente na utilização das GitHub Actions. Este aprendizado me proporcionou a habilidade de automatizar e agilizar o processo de integração de código, garantindo uma entrega mais consistente e confiável.
+
+Outro ponto crucial foi a implementação de testes automatizados, um componente essencial do CI. Através dessa prática, pude assegurar a qualidade e estabilidade do código desenvolvido, identificando possíveis falhas de forma precoce no ciclo de desenvolvimento.
+
+Além disso, aprendi a utilizar efetivamente o tracking de issues por meio de commits, promovendo uma gestão mais organizada e transparente do desenvolvimento. A configuração do Gitflow também se mostrou uma ferramenta valiosa, permitindo uma abordagem estruturada para o gerenciamento de branches e releases.
+
+Por fim, explorei o Continuous Deployment (CD), aprofundando meu entendimento sobre como automatizar o processo de deploy, garantindo uma entrega contínua e eficaz do código em ambiente de produção.
+
+Esses aprendizados foram fundamentais para aprimorar minhas habilidades em DevOps, principalmente no contexto de CI com foco em testes automatizados, e proporcionaram uma base sólida para enfrentar desafios futuros no mundo do desenvolvimento e integração contínua.
+
+COLOCAR DETAILS AQUI DO DEVOPS UTILIZADO
+
+
+
