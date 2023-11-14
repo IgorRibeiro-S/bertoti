@@ -414,9 +414,63 @@ Ao longo do projeto, pude aprimorar minhas habilidades em integrações cloud e 
 <details>
 <summary>Serviços AWS S3 e Google Cloud </summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/85df5181-3db8-49ac-a222-a68e19979efb"/><br>
-<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/c56b2300-779b-47d7-922d-fd1d00f020c3"/><br>
- ↳ Em resumo, este código realiza operações de upload, download e exclusão de arquivos entre o Amazon S3 e o Google Drive, sendo parte de um sistema mais amplo de transferência de dados. 
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/c56b2300-779b-47d7-922d-fd1d00f020c3"/><br>  
+ ↳ Este código é parte de um serviço em Java relacionado à transferência de dados entre sistemas, especificamente utilizando os serviços da Amazon S3 (Simple Storage Service) e Google Drive. Aqui está um resumo do que o código faz:
+
+1. **Configuração e Injeção de Dependências:**
+   - O serviço é uma classe Spring (`@Service`) que gerencia operações relacionadas ao Amazon S3.
+   - Ele usa as dependências do Amazon S3 e de um serviço chamado `GoogleServices`.
+   - O cliente do Amazon S3 e o serviço do Google são injetados automaticamente (`@Autowired`) usando o Spring Dependency Injection.
+
+2. **Upload de Arquivo para o Amazon S3:**
+   - Método `uploadFileToS3AndGetUrl` recebe um arquivo (`MultipartFile`) e um nome de arquivo.
+   - O método lê o conteúdo do arquivo, configura metadados, e faz o upload para um bucket no Amazon S3.
+   - Em seguida, gera uma URL assinada (presigned URL) para o arquivo recém-carregado, com uma expiração de 1 hora, e retorna essa URL como uma string.
+
+3. **Exclusão de Objeto no Amazon S3:**
+   - Método `excluirObjetoS3` recebe o nome do bucket e o nome do objeto a ser excluído, e então remove o objeto correspondente no Amazon S3.
+
+4. **Download de Todos os Arquivos do Amazon S3 e Upload para o Google Drive:**
+   - Método `downloadAllFilesFromS3` baixa todos os arquivos de um bucket no Amazon S3.
+   - Para cada arquivo baixado, o código cria um objeto `java.io.File` local e o preenche com o conteúdo do arquivo do S3.
+   - Em seguida, ele cria um objeto `MultipartFile` personalizado (`CustomMultipartFile`) a partir do arquivo local.
+   - Este objeto `MultipartFile` é então enviado para o serviço `googleService`, que parece ser responsável por fazer o upload do arquivo para o Google Drive.
+   - Após o upload bem-sucedido para o Google Drive, o código exclui o objeto correspondente no Amazon S3 e deleta o arquivo local.
+
+Em resumo, este código realiza operações de upload, download e exclusão de arquivos entre o Amazon S3 e o Google Drive, sendo parte de um sistema mais amplo de transferência de dados. 
 </details>
+
+<details>
+<summary>Google Service Cloud </summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/2506b641-918e-446b-9127-7c8065bc4072"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/3a3e3447-4839-4182-ba06-2fc0b0ead626"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/dced425e-b9c6-4c47-946c-2ff9dc2f1e83"/><br>
+ ↳ Esse código é parte de um serviço em Java que interage com a API do Google Drive para realizar operações como upload, download e exclusão de arquivos. Aqui está um resumo do que cada parte do código faz:
+
+1. **Configuração e Injeção de Dependências:**
+   - Configura constantes e variáveis necessárias para autenticação e acesso ao Google Drive.
+   - Injeta uma dependência do serviço de histórico (`HistoryService`).
+
+2. **Obtenção de Credenciais para o Google Drive:**
+   - Método `getCredentials` obtém credenciais de autorização para acessar o Google Drive.
+   - Usa o fluxo de autorização do Google para autenticar a aplicação e obter as credenciais.
+   - As credenciais são armazenadas localmente para acesso offline.
+
+3. **Download de Arquivo do Google Drive:**
+   - Método `downloadFile` baixa o conteúdo de um arquivo do Google Drive para um caminho local.
+
+4. **Exclusão de Arquivo do Google Drive:**
+   - Método `deleteFileFromDrive` exclui um arquivo do Google Drive com base no seu ID.
+
+5. **Upload de Arquivo para o Google Drive:**
+   - Método `uploadFileToDrive` realiza o upload de um arquivo para o Google Drive em uma pasta específica.
+   - Configura as credenciais, cria metadados do arquivo e realiza o upload.
+   - Registra informações sobre o upload, como o nome do arquivo, ID do arquivo, tamanho, data de envio e tempo de execução, no serviço de histórico (`HistoryService`).
+   - Aguarda 30 segundos após o upload (por meio de `Thread.sleep(30000)`) antes de retornar.
+
+Em resumo, este código faz parte de um sistema que utiliza o Google Drive para armazenamento e gerenciamento de arquivos, mantendo um histórico das operações realizadas.
+</details>
+
 
 <h3> Aprendizados Efetivos HS </h3>
 Durante esse período, adquiri conhecimento essencial em Continuous Integration (CI), focando especialmente na utilização das GitHub Actions. Este aprendizado me proporcionou a habilidade de automatizar e agilizar o processo de integração de código, garantindo uma entrega mais consistente e confiável.
