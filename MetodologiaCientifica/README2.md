@@ -272,7 +272,7 @@ Cliente: <a href="https://www.subiter.com/">Subiter</a>
 
 <br>
 <p align="center">
- <img src="https://user-images.githubusercontent.com/80851038/190831621-96d01aab-af9f-4b9b-a7c5-9e6419d287bb.jpeg"/>
+ <img src="https://user-images.githubusercontent.com/80851038/190831621-96d01aab-af9f-4b9b-a7c5-9e6419d287bb.jpeg" width="35%"/>
 </p>
 
 <h3> Visão do Projeto </h3>
@@ -495,6 +495,15 @@ Esses aprendizados foram fundamentais para aprimorar minhas habilidades em DevOp
 </details>
 
 
+<h2>Projeto 6: 2º Semestre de 2023</h2>
+<h3> Parceiro academico </h3>
+Projeto Integrador, Fatec Prof. Jessen Vidal - 2023. 6° Semestre
+Cliente: <a href="https://visionaespacial.com/">Visiona</a>
 
+<br><p align="center">
+ <a href="https://visionaespacial.com/"><img src="https://visionaespacial.com/wp-content/themes/VisionaEspacial/assets/img/logo-branca-completa.svg" width="110"/></a>
+</p>
+
+<h3> Visão do Projeto </h3>
 
 
