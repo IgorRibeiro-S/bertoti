@@ -471,6 +471,11 @@ Em resumo, este código realiza operações de upload, download e exclusão de a
 Em resumo, este código faz parte de um sistema que utiliza o Google Drive para armazenamento e gerenciamento de arquivos, mantendo um histórico das operações realizadas.
 </details>
 
+<details>
+<summary>Teste Unitário Google Service</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/d1b40d09-05de-42d5-b1c4-e0fa78a5ed03"/><br>
+ ↳ este teste verifica se a função downloadFile da classe GoogleServices responde corretamente quando chamada com argumentos nulos.
+</details>
 
 <h3> Aprendizados Efetivos HS </h3>
 Durante esse período, adquiri conhecimento essencial em Continuous Integration (CI), focando especialmente na utilização das GitHub Actions. Este aprendizado me proporcionou a habilidade de automatizar e agilizar o processo de integração de código, garantindo uma entrega mais consistente e confiável.
@@ -483,7 +488,13 @@ Por fim, explorei o Continuous Deployment (CD), aprofundando meu entendimento so
 
 Esses aprendizados foram fundamentais para aprimorar minhas habilidades em DevOps, principalmente no contexto de CI com foco em testes automatizados, e proporcionaram uma base sólida para enfrentar desafios futuros no mundo do desenvolvimento e integração contínua.
 
-COLOCAR DETAILS AQUI DO DEVOPS UTILIZADO
+<details>
+<summary>Teste Unitário Google Service</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/7f823aee-e7f1-4b0d-9b85-5f35f6ab8a26"/><br>
+ ↳ este workflow é acionado quando há push ou pull request nas branches específicas. Ele configura o ambiente Java, clona o repositório e, em seguida, executa os testes Maven do projeto. Isso é comum em projetos Java, onde é necessário garantir que os testes sejam executados automaticamente sempre que há alterações no código.
+</details>
+
+
 
 
 
