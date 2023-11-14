@@ -382,6 +382,13 @@ Além disso, a aplicação irá armazenar os metadados dos arquivos. Esses dados
 
 <details>
 <summary>Design da aplicação</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/6b0022fb-f1ca-4b50-8d7e-031c4366acc8"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/27e35b8d-30c0-49bb-89bc-f20941eb2128"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/b21fb528-2e95-49b1-87d8-daf7c7a3fd95"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/e988c380-cd95-4c54-af94-d24936188d4a"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/d1a1e6c5-8855-4d52-8abf-237c6e8e4d7e"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/c232be95-636e-4087-bc5f-3fae18219d87"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/b83c518d-8ed4-4044-b091-2f8667323b83"/><br>
 </details>
 
 <h3> Tecnologias utilizadas </h3>
@@ -404,7 +411,12 @@ Além disso, assumi a responsabilidade pelos testes automatizados utilizando JUn
 
 Ao longo do projeto, pude aprimorar minhas habilidades em integrações cloud e testes automatizados, contribuindo significativamente para o sucesso e a confiabilidade da aplicação.
 
-COLOCAR DETAILS AQUI DA PARTE DO CÓDIGO
+<details>
+<summary>Serviços AWS S3 e Google Cloud </summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/85df5181-3db8-49ac-a222-a68e19979efb"/><br>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/c56b2300-779b-47d7-922d-fd1d00f020c3"/><br>
+ ↳ Em resumo, este código realiza operações de upload, download e exclusão de arquivos entre o Amazon S3 e o Google Drive, sendo parte de um sistema mais amplo de transferência de dados. 
+</details>
 
 <h3> Aprendizados Efetivos HS </h3>
 Durante esse período, adquiri conhecimento essencial em Continuous Integration (CI), focando especialmente na utilização das GitHub Actions. Este aprendizado me proporcionou a habilidade de automatizar e agilizar o processo de integração de código, garantindo uma entrega mais consistente e confiável.
