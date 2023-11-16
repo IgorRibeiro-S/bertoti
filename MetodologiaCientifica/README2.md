@@ -505,5 +505,47 @@ Cliente: <a href="https://visionaespacial.com/">Visiona</a>
 </p>
 
 <h3> Visão do Projeto </h3>
+O projeto GeoForesight tem como propósito otimizar a gestão de dados do programa Proagro, integrando informações de atividades agrícolas de pequenos e médios produtores no Brasil. A solução visa automatizar o processo de coleta de dados, combinando informações do Proagro com dados de sensoriamento remoto e apresentando-as de forma clara em um Sistema de Informação Geográfica (SIG).
 
+**Visão de Projeto: GeoFeosight**
 
+**Problema Solucionado:**
+Houve a necessidade de aprimorar o gerenciamento de dados do Proagro, percebendo uma lacuna na eficiência e integração do processo atual. A ausência de automação na coleta e análise de dados representa um obstáculo significativo para a tomada de decisões estratégicas, tanto para os produtores quanto para as autoridades governamentais.
+
+**Solução Desenvolvida:**
+Foi desenvolvida a aplicação GeoFeosight, um serviço inovador denominado ProagroGIS. Este serviço automatiza o download de dados do Proagro e informações de sensoriamento remoto. Os usuários têm a facilidade de configurar o serviço através de um menu intuitivo, e em situações de erro, a aplicação emite alertas proativos. Além disso, a solução armazena meticulosamente os metadados dos arquivos, alimentando um painel de controle que possibilita o monitoramento em tempo real da execução do serviço e a realização de análises detalhadas.
+
+**Benefícios Conquistados:**
+Ao desenvolver o GeoFeosight, visamos superar os desafios enfrentados no gerenciamento de dados do Proagro. Os benefícios incluem uma automação eficiente, facilitando a coleta e análise de dados. A configuração amigável proporciona uma experiência intuitiva para os usuários, enquanto alertas instantâneos garantem uma resposta ágil a eventuais problemas. O armazenamento de metadados e o painel de controle capacitam a tomada de decisões estratégicas, contribuindo para um gerenciamento mais eficaz das atividades agrícolas.
+
+**Resultados Alcançados:**
+A implementação do GeoFeosight resultou em uma solução robusta que promove a eficiência operacional e facilita a gestão de dados do Proagro. A automação do processo de coleta e análise de dados oferece uma visão abrangente das atividades agrícolas, capacitando produtores e autoridades governamentais. O painel de controle e as análises detalhadas proporcionam insights valiosos para uma tomada de decisões mais informada e estratégica.
+
+<details>
+<summary>Design da aplicação</summary>
+
+</details>
+
+<h3> Tecnologias utilizadas </h3>
+
+* Python 3
+* Pandas
+* Flask
+* MongoDB
+* PostgreSQL
+* PostGIS
+* React
+* Javascript
+* CSS
+
+<h3> Contribuições pessoais </h3>
+
+Ao longo do desenvolvimento do GeoFeosight, assumi um papel multifacetado como Scrum Master e Desenvolvedor Backend, desempenhando funções cruciais na concepção e implementação da solução.
+
+Como Scrum Master, dediquei-me a facilitar a aplicação eficiente das práticas ágeis, promovendo a colaboração e a comunicação entre os membros da equipe. Coordenando sprints e garantindo a entrega contínua de incrementos funcionais, busquei otimizar o fluxo de trabalho, resultando em um desenvolvimento ágil e alinhado aos objetivos do projeto.
+
+Enquanto Desenvolvedor Backend, meu foco principal foi na manipulação e integração dos dados do Proagro. Elaborei queries complexas que envolviam diversas tabelas, garantindo a obtenção e a harmonização eficaz de informações provenientes de diferentes fontes. Essas queries foram essenciais para a criação de uma base de dados robusta que alimenta o GeoFeosight, viabilizando a automação do download de dados do Proagro e do sensoriamento remoto.
+
+Minha atuação como desenvolvedor backend envolveu a resolução de desafios técnicos relacionados à eficiência das queries e à otimização do desempenho do sistema. Trabalhando em estreita colaboração com a equipe, busquei as melhores práticas para garantir que as consultas aos dados fossem rápidas, precisas e escaláveis.
+
+IMAGENS DAS QUERIES E COMO O BACK-END LIDA COM ISSO
