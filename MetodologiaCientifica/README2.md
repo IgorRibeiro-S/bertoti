@@ -3,8 +3,7 @@
 
 Olá, seja bem-vindo. Sou o Igor Ribeiro, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal.
 
-<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/e24cb92b-b4fc-4725-8f8b-45d49a48ae92.jpg" width="320">
-
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/e24cb92b-b4fc-4725-8f8b-45d49a48ae92.jpg" alt="Imagem" width="220">
 
 <h3> Principais Conhecimentos </h3>
 
@@ -35,7 +34,7 @@ Além disso, a Athena integra funcionalidades como gestão de tarefas, calendár
 - SQLite3
 - ismtplib
 - email.mime.text
-- 
+  
 <h3> Contribuições pessoais </h3>
 Utilizei a linguagem Python para estruturar a base do projeto. Concentrei-me principalmente no reconhecimento de voz para texto, utilizando bibliotecas como SpeechRecognition e PyAudio. Esta foi uma parte crucial do projeto, sendo o núcleo da aplicação. Uma das principais complexidades do projeto foi a criação de dois tipos de motores distintos. O primeiro motor tinha a tarefa de compreender um texto e convertê-lo em voz, enquanto o segundo motor tinha a função inversa, ou seja, converter voz em texto.
 
@@ -159,8 +158,9 @@ O Java implementa os quatro pilares de forma bastante intuitiva, o que facilita 
 <h3> Parceiro academico </h3>
 Projeto Integrador, Fatec Prof. Jessen Vidal - 2022. 3° Semestre
 Cliente: <a href="https://www.midall.com.br/">MidAll</a>
-
-<br><p>
+<br>
+<br>
+<p align="center">
  <a href="https://www.midall.com.br/"><img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="110"/></a>
 </p>
 
@@ -270,7 +270,7 @@ Alguns pontos importantes de aprendizado nesse semestre foram:
 <h3> Parceiro academico </h3>
 Projeto Integrador, Fatec Prof. Jessen Vidal - 2022. 4° Semestre
 Cliente: <a href="https://www.subiter.com/">Subiter</a>
-
+<br>
 <br>
 <p align="center">
  <img src="https://user-images.githubusercontent.com/80851038/190831621-96d01aab-af9f-4b9b-a7c5-9e6419d287bb.jpeg" width="35%"/>
@@ -369,8 +369,9 @@ Neste semestre, atuei como desenvolvedor Back-end da aplicação, onde as tecnol
 <h3> Parceiro academico </h3>
 Projeto Integrador, Fatec Prof. Jessen Vidal - 2023. 5° Semestre
 Cliente: <a href="https://www.midall.com.br/">MidAll</a>
-
-<br><p>
+<br>
+<br>
+<p align="center">
  <a href="https://www.midall.com.br/"><img src="https://user-images.githubusercontent.com/80851038/163725778-498ec2e9-e8eb-45cf-a586-848e5bb1dd97.png" width="110"/></a>
 </p>
 
@@ -500,7 +501,7 @@ Projeto Integrador, Fatec Prof. Jessen Vidal - 2023. 6° Semestre
 Cliente: <a href="https://visionaespacial.com/">Visiona</a>
 
 <br><p align="center">
- <a href="https://visionaespacial.com/"><img src="https://visionaespacial.com/wp-content/themes/VisionaEspacial/assets/img/logo-branca-completa.svg" width="110"/></a>
+ <a href="https://visionaespacial.com/"><img src="https://visionaespacial.com/wp-content/themes/VisionaEspacial/assets/img/logo-branca-completa.svg" width="220"/></a>
 </p>
 
 <h3> Visão do Projeto </h3>
@@ -535,8 +536,30 @@ Ao longo do desenvolvimento do GeoFeosight, assumi um papel multifacetado como S
 
 Como Scrum Master, dediquei-me a facilitar a aplicação eficiente das práticas ágeis, promovendo a colaboração e a comunicação entre os membros da equipe. Coordenando sprints e garantindo a entrega contínua de incrementos funcionais, busquei otimizar o fluxo de trabalho, resultando em um desenvolvimento ágil e alinhado aos objetivos do projeto.
 
+<details>
+<summary>Organização Kanban GitHub & Zube</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/2e1ba6dd-d807-43ff-885d-70eb70615ffd"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/15848c07-3d89-4f67-9212-0cbff75a095b"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/3741d65c-e4ea-4c37-80ff-4d9cc2fce416"/>
+
+
+</details>
 Enquanto Desenvolvedor Backend, meu foco principal foi na manipulação e integração dos dados do Proagro. Elaborei queries complexas que envolviam diversas tabelas, garantindo a obtenção e a harmonização eficaz de informações provenientes de diferentes fontes. Essas queries foram essenciais para a criação de uma base de dados robusta que alimenta o GeoFeosight, viabilizando a automação do download de dados do Proagro e do sensoriamento remoto.
 
 Minha atuação como desenvolvedor backend envolveu a resolução de desafios técnicos relacionados à eficiência das queries e à otimização do desempenho do sistema. Trabalhando em estreita colaboração com a equipe, busquei as melhores práticas para garantir que as consultas aos dados fossem rápidas, precisas e escaláveis.
 
-IMAGENS DAS QUERIES E COMO O BACK-END LIDA COM ISSO
+<details>
+<summary>Queries & Backend</summary>
+
+</details>
+
+<h3> Aprendizados Efetivos HS </h3>
+Desenvolvi conhecimentos sólidos em várias vertentes da Inteligência Artificial (IA) e manipulação de dados, proporcionando uma base robusta para enfrentar desafios complexos no cenário tecnológico. Minha proficiência em Pandas aprimorou minha capacidade de manipular e analisar dados de maneira eficiente, enquanto o Scikit-Learn me permitiu implementar modelos de aprendizado de máquina, desde classificação até regressão.
+
+Aprofundei meu entendimento em análise de séries temporais, utilizando o ARIMA para realizar previsões precisas em contextos com padrões temporais. Na área de agrupamento de dados, explorei técnicas de clustering como K-Means e Hierarchical Clustering, permitindo-me identificar padrões e estruturas intrínsecas em conjuntos de dados complexos.
+
+No âmbito das Redes Neurais, concentrei-me na implementação de modelos de classificação, utilizando bibliotecas como TensorFlow e PyTorch. Essa jornada envolveu o estudo aprofundado de arquiteturas, otimizações e estratégias de treinamento, solidificando meu conhecimento nas complexidades das redes neurais.
+
+Além disso, adquiri habilidades significativas em otimização de banco de dados e consultas SQL, compreendendo como estruturar e indexar bancos de dados para otimizar o desempenho. No campo dos bancos de dados NoSQL, como o MongoDB, desenvolvi expertise em consultas eficientes e estratégias de indexação.
+
+Esses aprendizados não apenas ampliaram meu conhecimento técnico, mas também forneceram uma base sólida para contribuir de forma impactante em projetos que envolvem desde a manipulação inteligente de dados até a implementação de soluções avançadas de IA.
