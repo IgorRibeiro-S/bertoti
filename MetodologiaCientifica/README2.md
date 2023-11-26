@@ -16,10 +16,17 @@ Meu primeiro contato com a linguagem foi em 2021, durante as aulas na FATEC. Atu
 Projeto Integrador, Fatec Prof. Jessen Vidal - 2021. 1° Semestre
 Cliente Interno: Profº Fabiano Sabah</a>
 <h3> Visão do Projeto </h3>
-Com o objetivo de proporcionar aos estudantes uma maneira mais eficiente e organizada de gerenciar suas atividades acadêmicas e se manterem informados, foi desenvolvida a Athena - uma assistente pessoal de estudos. O que a torna especial é a sua capacidade de integrar diversas ferramentas úteis em um só lugar. A ideia inicial do projeto era construir uma ferramenta capaz de auxiliar estudantes em suas rotinas, com ênfase na inclusão de pessoas com deficiência visual.
+Com a missão de oferecer aos estudantes uma abordagem mais eficiente e organizada para gerenciar suas atividades acadêmicas e se manterem atualizados, a Athena foi concebida como uma assistente pessoal de estudos. A singularidade dessa ferramenta reside na sua capacidade de integrar diversas ferramentas úteis em um único local, com uma atenção especial à inclusão de pessoas com deficiência visual. O projeto foi inicialmente idealizado para ser uma ferramenta abrangente que não apenas facilitasse as rotinas acadêmicas, mas também proporcionasse acessibilidade para todos os estudantes, independentemente de suas necessidades.
+
+<h3> Solução </h3>
+A solução implementada, a Athena, é uma assistente pessoal de estudos que unifica diversas ferramentas em uma plataforma única. Para atender às necessidades de estudantes com deficiência visual, a interface foi projetada com recursos de acessibilidade avançados, como leitores de tela e navegação por voz. A inclusão desses recursos visa proporcionar uma experiência equitativa a todos os usuários.
+
+Além disso, a Athena integra funcionalidades como gestão de tarefas, calendário acadêmico, lembretes de prazos importantes e acesso a recursos educacionais online. A plataforma também oferece suporte à integração de tecnologias de aprendizado, adaptando-se às preferências individuais de cada estudante. A abordagem inclusiva e a ênfase na eficiência tornam a Athena uma ferramenta valiosa para estudantes de todos os níveis de ensino.
+
 <br>
 <br>
 <h3> Tecnologias utilizadas </h3>
+
 - Python
 - pydub
 - Tkinter
@@ -29,7 +36,7 @@ Com o objetivo de proporcionar aos estudantes uma maneira mais eficiente e organ
 - SQLite3
 - ismtplib
 - email.mime.text
-<h2> PYTHON </h2>
+- 
 <h3> Contribuições pessoais </h3>
 Utilizei a linguagem Python para estruturar a base do projeto. Concentrei-me principalmente no reconhecimento de voz para texto, utilizando bibliotecas como SpeechRecognition e PyAudio. Esta foi uma parte crucial do projeto, sendo o núcleo da aplicação. Uma das principais complexidades do projeto foi a criação de dois tipos de motores distintos. O primeiro motor tinha a tarefa de compreender um texto e convertê-lo em voz, enquanto o segundo motor tinha a função inversa, ou seja, converter voz em texto.
 
@@ -98,7 +105,7 @@ Cliente: <a href="http://necto.com.br/pt/">NECTO Systems</a>
 O **desafio** consiste em apresentar à Necto Systems uma solução para o problema de monitoramento de um ou mais SGBDs remotos, assim como na coleta de métricas de desempenho dos bancos de dados presentes nos servidores da empresa.
 
 <h3>Solução</h3> 
-Foi desenvolvida uma aplicação desktop que monitora e apresenta métricas em tempo real, fornecendo informações sobre o uso e a saúde do SGBD. Além disso, oferece funcionalidades de pós-gerenciamento para múltiplos bancos de dados no servidor, o que é um diferencial significativo.
+Foi desenvolvida uma aplicação desktop que monitora e apresenta métricas em tempo real, fornecendo informações sobre o uso e a saúde do SGBD. Além disso,esta aplicação oferece funcionalidades de pós-gerenciamento para múltiplos bancos de dados no servidor, o que é um diferencial significativo.
 
 <h3> Tecnologias utilizadas </h3>
 
@@ -109,16 +116,10 @@ Foi desenvolvida uma aplicação desktop que monitora e apresenta métricas em t
 - SQLite
 
 <h3> Contribuições pessoais </h3>
-Neste projeto, tive meu primeiro contato com a linguagem Java e dei meus primeiros passos na Programação Orientada a Objetos (POO). Atuei como desenvolvedor na criação da lógica de conexão da aplicação com o JDBC. Por meio dessa conexão, foi possível extrair metadados que foram utilizados na aplicação. Alguns desses metadados incluem:
-* Tamanho do disco
-* Queries que mais consomem 
-* Queries mais lentas
-* Numero de deadlocks
-* Otimização de Operações de Entrada/Saída no Servidor
-* Queries que Mais Consomem Espaço Temporário no Servidor
+Neste projeto, tive meu primeiro contato com a linguagem Java e dei meus primeiros passos na Programação Orientada a Objetos (POO). Atuei como desenvolvedor na criação da lógica de conexão da aplicação com o JDBC. Por meio dessa conexão, foi possível extrair metadados que foram utilizados na aplicação. Alguns desses metadados incluem: Tamanho de disco; Queries que mais consomem; Queries mais lentas; Numero de deadlocks; Otimização de Operações de Entrada/Saída no Servidor; Queries que Mais Consomem Espaço Temporário no Servidor
 <br>
 <br>
-Ao utilizar a conexão com o SGBD do PostgreSQL através do JDBC do Java 11, conseguimos extrair métricas e alertas para monitorar em tempo real a 'saúde' do SGBD. No exemplo abaixo, é possível ver um trecho de código que permite identificar a query mais lenta, possibilitando, assim, melhorias de performance por meio de ajustes no código.
+Ao utilizar a conexão com o SGBD do PostgreSQL através do JDBC do Java 11, consegui extrair métricas e alertas para monitorar em tempo real a 'saúde' do SGBD. No exemplo apresentado a seguir, é possível ver um trecho de código que permite identificar a query mais lenta, possibilitando, assim, melhorias de performance por meio de ajustes no código.
 <details>
 <summary>Exemplo de código - Querie mais lenta</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/3b631d3f-d5c4-45ba-9dc3-982cb5bfd350"/><br>
@@ -165,10 +166,13 @@ Cliente: <a href="https://www.midall.com.br/">MidAll</a>
 </p>
 
 <h3> Visão do Projeto </h3>
+O escopo deste projeto concentra-se na implementação de promoções em um E-commerce, visando uma abordagem inteligente. A proposta é desenvolver um sistema capaz de gerenciar as mecânicas das promoções de forma flexível, permitindo atualizações rápidas e eficientes no sistema.
+<h3> Solução </h3>
+A solução proposta envolve a criação de um mini motor de regras com uma interface intuitiva. Este motor permitirá o cadastro e aplicação dinâmica das regras de promoções no momento em que os itens são adicionados ao carrinho de compras. A flexibilidade do sistema reside na capacidade de definir e modificar as mecânicas das promoções de forma rápida e sem a necessidade de intervenção técnica extensiva.
 
-"Temos um problema para criação de **promoções em um Ecommerce**. Precisamos de uma solução inteligente onde, as mecânicas das promoções sejam feitas de forma flexível e de rápida atualização no sistema." - MidAll.
+A interface do mini motor de regras será projetada para facilitar o cadastro de novas promoções, com opções para definir condições específicas, como produtos específicos, quantidades mínimas, descontos percentuais ou valores fixos. Além disso, o sistema permitirá a fácil atualização das promoções existentes, proporcionando agilidade na adaptação às estratégias de marketing e às demandas do mercado.
 
-A ideia é criar um mini motor de regras com uma interface onde as regras das promoções possam ser cadastradas e aplicadas no momento que os itens forem para o carrinho de compras.
+Essa solução não apenas simplificará o processo de gerenciamento de promoções para os administradores do E-commerce, mas também garantirá uma experiência de compra aprimorada para os clientes, com a aplicação automática e transparente de descontos no momento certo.
 
 <details>
 <summary>Mostrar exemplo</summary>
@@ -192,12 +196,9 @@ A ideia é criar um mini motor de regras com uma interface onde as regras das pr
 - ORM
 - Maven
 
-<h3><b>QUARKUS</h3></b>
-
-Tive meu primeiro contato com um framework back-end ao utilizar o Quarkus, voltado para Web Services e Microservices. Trata-se de uma tecnologia robusta e confiável, que teve um grande impacto positivo no projeto. Com o Quarkus, fui capaz de implementar conceitos de padrões de projeto, como inversão de controle e injeção de dependência. Além disso, é uma tecnologia que oferece hot reload no back-end, o que significa que a aplicação é reiniciada a cada alteração no projeto sem a necessidade de uma nova compilação, o que facilita a detecção de bugs e otimiza o tempo de desenvolvimento.
-
 
 <h3> Contribuições pessoais </h3>
+Tive meu primeiro contato com um framework back-end ao utilizar o Quarkus, voltado para Web Services e Microservices. Trata-se de uma tecnologia robusta e confiável, que teve um grande impacto positivo no projeto. Com o Quarkus, fui capaz de implementar conceitos de padrões de projeto, como inversão de controle e injeção de dependência. Além disso, é uma tecnologia que oferece hot reload no back-end, o que significa que a aplicação é reiniciada a cada alteração no projeto sem a necessidade de uma nova compilação, o que facilita a detecção de bugs e otimiza o tempo de desenvolvimento.
 
 Fiz parte do time de Back-end, onde participei ativamente na criação dos CRUDs da API. Organizei os packages da aplicação e a estrutura dos códigos com: 
 - RESOURCES;
@@ -238,12 +239,13 @@ Utilizei padrões, técnicas e boas práticas a fim de desenvolver um codigo lim
 
 <h3> Aprendizados Efetivos HS </h3>
 
-O projeto proposto pela empresa Midall foi o primeiro sistema web com o qual trabalhei. Em seu desenvolvimento, obtive meu primeiro contato com conceitos bases para todo profissional desenvolvedor de software. Abaixo estão algumas tecnologias aprendidas no semestre:
+O projeto proposto pela empresa Midall foi o primeiro sistema web com o qual trabalhei. Em seu desenvolvimento, obtive meu primeiro contato com conceitos bases para todo profissional desenvolvedor de software. A seguir, estão relacionadas algumas tecnologias aprendidas no semestre:
 
 protocolo HTTP;
-Requisição GET, POST, PUT, DELETE;
-- O que é um JSON e como ele funciona na comunicação de sistemas web;
+<h4>Requisição GET, POST, PUT, DELETE</h4>
+
 - O que é um framework web e qual sua utilidade na construção de sistemas;
+- O que é um JSON e como ele funciona na comunicação de sistemas web;
 - O que é e como funciona a conteinerização;
 - Arquitetura MVC
 <details>
@@ -276,7 +278,10 @@ Cliente: <a href="https://www.subiter.com/">Subiter</a>
 </p>
 
 <h3> Visão do Projeto </h3>
-Temos um desafio de sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
+O desafio do projeto constitui na sincronização dos dados administrativos, financeiros e operacionais referentes aos serviços prestados pela empresa. A falta de organização dos dados acarreta lentidão para atender chamados, e confusão na interpretação dos indicadores comerciais e financeiros.
+
+<h3>Solução</h3>
+Uma plataforma web foi desenvolvida para organizar todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
 
 <details>
 <summary>Design da aplicação</summary>
@@ -285,11 +290,6 @@ Temos um desafio de sincronização dos dados administrativos, financeiros e ope
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/b06e9ce9-a737-4cef-b487-b8ae826b1c28"/>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/d5295eaa-015f-4ab2-b0f1-a58f36c0b012"/>
 </details>
-
-<h3>Solução</h3>
-
-
-Desenvolvemos uma plataforma web que organiza todos os dados referentes aos serviços prestados pela empresa, de forma interpretada, cujo o principal objetivo é criar chamados e agendamentos conforme as necessidades do cliente e solucioná-los de forma ponta a ponta entre a relação do cliente com o suporte e, suporte com a do administrador que, trabalha na criação e sincronização dos dados em um único lugar.
 
 <h3> Tecnologias utilizadas </h3>
 
@@ -353,18 +353,18 @@ Com o swagger é possível documentar a API de forma rápida e fácil. Implement
 
 Pensando na solução do problema deste projeto, foi possível desenvolver diversas técnicas que são utilizadas no mercado. Neste projeto obtive um crescimento e conhecimento exponencial em tecnologias e aplicação de padrões de projeto. Sendo algumas: 
 
-* Padrôes de Projetos (design patterns) - Onde o mestre professor e orientador Giuliano Bertoti foi cirurgico na apresentação dos padrões utilizados no mercado e como podemos implementa-los numa aplicação. Criando assim uma aplicação sem fortes acoplamentos, de fácil manutenção e facilitando o reuso de classes/interfaces.
+* Padrões de Projetos (design patterns) - O mestre professor e orientador Giuliano Bertoti foi cirurgico na apresentação dos padrões utilizados no mercado e como podemos implementa-los numa aplicação. Criando assim uma aplicação sem fortes acoplamentos, de fácil manutenção e facilitando o reuso de classes/interfaces.
 <details>
 <summary>Padrão Strategy</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/08799255-be81-4e13-b755-3b14a4e5987a"/>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/f47ed177-2ce3-4b5b-89a4-8adfaf26b8d4"/>
 </details>
 
-* Computação em nuvem (Cloud computing) - A computação em nuvem é o presente, então se fez de extrema importância entender e aplicar o conceito no projeto. Utilizei o Oracle Cloud, na qual foi ensinado neste semestre. Então para mantermos a aplicação funcionando e disponível para o mundo, implementar o Banco de Dados em Nuvem se fez necessário.
+* Computação em nuvem (Cloud computing) - a computação em nuvem é o presente, então se fez de extrema importância entender e aplicar o conceito no projeto. Utilizei o Oracle Cloud, na qual foi ensinado neste semestre. Então para mantermos a aplicação funcionando e disponível para o mundo, implementar o Banco de Dados em Nuvem se fez necessário.
 
 * Autenticação e Autorização (Spring security + JWT do SpringFramework) - A autenticação e autorização é fundamental na maioria dos serviços RESTful, então o aprendizado desta tecnologia se faz necessário para um desenvolvedor Back-end. 
 
-Neste semestre atuei como desenvolvedor Back-end da aplicação, onde as tecnologias e conceitos aprendidos foram essenciais para o avanço e desenvolvimento do projeto em si. Também foi onde pude demonstrar técnicas e designs que são chave para resolução de um problema real. 
+Neste semestre, atuei como desenvolvedor Back-end da aplicação, onde as tecnologias e conceitos aprendidos foram essenciais para o avanço e desenvolvimento do projeto em si. Também foi onde pude demonstrar técnicas e designs que são chave para resolução de um problema real. 
 
 <h2>Projeto 5: 1º Semestre de 2023</h2>
 <h3> Parceiro academico </h3>
@@ -376,10 +376,10 @@ Cliente: <a href="https://www.midall.com.br/">MidAll</a>
 </p>
 
 <h3> Visão do Projeto </h3>
-O projeto visa automatizar o processo de download de arquivos de uma plataforma, transferindo-os para a nuvem. Isso será realizado por meio do desenvolvimento de uma aplicação tipo serviço. Para o usuário, a aplicação oferecerá um menu de configuração onde serão inseridos os parâmetros necessários para o serviço de download funcionar de forma automática. Em caso de erros durante o processamento, a aplicação irá gerar alertas.
+O desafio principal consiste em criar uma aplicação tipo serviço que automatize o processo de download de arquivos de uma plataforma específica e os transfira para a nuvem. A complexidade reside na integração eficiente com a plataforma, lidando com possíveis mudanças em sua estrutura. Além disso, é crucial desenvolver um sistema de automação robusto, capaz de lidar com diversos tipos de arquivos e garantir a segurança durante o download. A configuração do usuário também se apresenta como um desafio, exigindo uma interface intuitiva para inserção de parâmetros, incluindo autenticação e caminhos de armazenamento na nuvem. O tratamento de erros é essencial para lidar com falhas no processo de download e na integração com a nuvem, exigindo a geração de alertas claros para rápida resolução. Por fim, o armazenamento eficiente de metadados e a criação de um painel de controle com indicadores detalhados representam desafios adicionais.
 
-Além disso, a aplicação irá armazenar os metadados dos arquivos. Esses dados serão utilizados para criar um painel de controle que permitirá monitorar a execução do serviço. Também será possível realizar análises detalhadas dos resultados e indicadores, como o número de arquivos transferidos, a quantidade de bytes transferidos e o tempo de transferência, entre outros.
-
+<h3> Solução </h3>
+A solução proposta abrange diversos aspectos. Para a integração com a plataforma, será utilizada a API fornecida, implementando também um mecanismo de monitoramento para ajustar dinamicamente o processo de download diante de mudanças na estrutura. A automação do download será alcançada por meio do desenvolvimento de scripts flexíveis e da implementação de verificações de integridade pós-download. A configuração do usuário será simplificada com uma interface gráfica ou linha de comando intuitiva, incorporando validações para evitar erros. O tratamento de erros será aprimorado com logs detalhados e alertas instantâneos em caso de falhas críticas. Quanto ao armazenamento de metadados, será utilizado um banco de dados eficiente, como PostgreSQL, com um esquema bem projetado para facilitar consultas futuras. O painel de controle será uma interface web responsiva, integrando gráficos e métricas em tempo real para fornecer uma visão abrangente do desempenho do serviço.
 <details>
 <summary>Design da aplicação</summary>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/6b0022fb-f1ca-4b50-8d7e-031c4366acc8"/><br>
@@ -507,19 +507,11 @@ Cliente: <a href="https://visionaespacial.com/">Visiona</a>
 <h3> Visão do Projeto </h3>
 O projeto GeoForesight tem como propósito otimizar a gestão de dados do programa Proagro, integrando informações de atividades agrícolas de pequenos e médios produtores no Brasil. A solução visa automatizar o processo de coleta de dados, combinando informações do Proagro com dados de sensoriamento remoto e apresentando-as de forma clara em um Sistema de Informação Geográfica (SIG).
 
-**Visão de Projeto: GeoFeosight**
 
-**Problema Solucionado:**
+<h3> Solução </h3>
 Houve a necessidade de aprimorar o gerenciamento de dados do Proagro, percebendo uma lacuna na eficiência e integração do processo atual. A ausência de automação na coleta e análise de dados representa um obstáculo significativo para a tomada de decisões estratégicas, tanto para os produtores quanto para as autoridades governamentais.
 
-**Solução Desenvolvida:**
 Foi desenvolvida a aplicação GeoFeosight, um serviço inovador denominado ProagroGIS. Este serviço automatiza o download de dados do Proagro e informações de sensoriamento remoto. Os usuários têm a facilidade de configurar o serviço através de um menu intuitivo, e em situações de erro, a aplicação emite alertas proativos. Além disso, a solução armazena meticulosamente os metadados dos arquivos, alimentando um painel de controle que possibilita o monitoramento em tempo real da execução do serviço e a realização de análises detalhadas.
-
-**Benefícios Conquistados:**
-Ao desenvolver o GeoFeosight, visamos superar os desafios enfrentados no gerenciamento de dados do Proagro. Os benefícios incluem uma automação eficiente, facilitando a coleta e análise de dados. A configuração amigável proporciona uma experiência intuitiva para os usuários, enquanto alertas instantâneos garantem uma resposta ágil a eventuais problemas. O armazenamento de metadados e o painel de controle capacitam a tomada de decisões estratégicas, contribuindo para um gerenciamento mais eficaz das atividades agrícolas.
-
-**Resultados Alcançados:**
-A implementação do GeoFeosight resultou em uma solução robusta que promove a eficiência operacional e facilita a gestão de dados do Proagro. A automação do processo de coleta e análise de dados oferece uma visão abrangente das atividades agrícolas, capacitando produtores e autoridades governamentais. O painel de controle e as análises detalhadas proporcionam insights valiosos para uma tomada de decisões mais informada e estratégica.
 
 <details>
 <summary>Design da aplicação</summary>
