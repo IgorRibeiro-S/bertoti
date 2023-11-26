@@ -24,7 +24,6 @@ A solução implementada, a Athena, é uma assistente pessoal de estudos que uni
 Além disso, a Athena integra funcionalidades como gestão de tarefas, calendário acadêmico, lembretes de prazos importantes e acesso a recursos educacionais online. A plataforma também oferece suporte à integração de tecnologias de aprendizado, adaptando-se às preferências individuais de cada estudante. A abordagem inclusiva e a ênfase na eficiência tornam a Athena uma ferramenta valiosa para estudantes de todos os níveis de ensino.
 
 <br>
-<br>
 <h3> Tecnologias utilizadas </h3>
 
 - Python
