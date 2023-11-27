@@ -515,6 +515,10 @@ Foi desenvolvida a aplicação GeoFeosight, um serviço inovador denominado Proa
 
 <details>
 <summary>Design da aplicação</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/18d63b17-9b4b-462b-a9ad-a11a380801cc"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/bec57f8f-5fc3-4d76-8b2e-545aced9f9e1"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/b183c005-d957-49dc-ad9d-49c489362b95"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/ec8a94cc-2d59-4c69-a6ca-2db399e89dd3"/>
 
 </details>
 
@@ -531,7 +535,7 @@ Foi desenvolvida a aplicação GeoFeosight, um serviço inovador denominado Proa
 * CSS
 
 <h3> Contribuições pessoais </h3>
-
+<h4> Scrum Master </h4>
 Ao longo do desenvolvimento do GeoFeosight, assumi um papel multifacetado como Scrum Master e Desenvolvedor Backend, desempenhando funções cruciais na concepção e implementação da solução.
 
 Como Scrum Master, dediquei-me a facilitar a aplicação eficiente das práticas ágeis, promovendo a colaboração e a comunicação entre os membros da equipe. Coordenando sprints e garantindo a entrega contínua de incrementos funcionais, busquei otimizar o fluxo de trabalho, resultando em um desenvolvimento ágil e alinhado aos objetivos do projeto.
@@ -541,16 +545,28 @@ Como Scrum Master, dediquei-me a facilitar a aplicação eficiente das práticas
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/2e1ba6dd-d807-43ff-885d-70eb70615ffd"/>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/15848c07-3d89-4f67-9212-0cbff75a095b"/>
 <img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/3741d65c-e4ea-4c37-80ff-4d9cc2fce416"/>
-
-
+  ↳ Como Scrum Master, coordenei a organização do projeto no ambiente GitHub em conjunto com a plataforma Zube. Nessa função, defini e pontuei tarefas, priorizando-as com base no nível de complexidade. A integração dessas ferramentas proporcionou total controle sobre as atividades, enquanto a interface visual atraente e intuitiva do Zube contribuiu significativamente para manter uma organização visual eficaz para a equipe. Essa abordagem permitiu uma gestão ágil e transparente do projeto, garantindo que as prioridades fossem claras e a execução das tarefas fosse eficiente.
 </details>
-Enquanto Desenvolvedor Backend, meu foco principal foi na manipulação e integração dos dados do Proagro. Elaborei queries complexas que envolviam diversas tabelas, garantindo a obtenção e a harmonização eficaz de informações provenientes de diferentes fontes. Essas queries foram essenciais para a criação de uma base de dados robusta que alimenta o GeoFeosight, viabilizando a automação do download de dados do Proagro e do sensoriamento remoto.
+<h4> Desenvolvedor Backend </h4>
+Como Desenvolvedor Backend, concentrei meus esforços na manipulação e integração de dados do Proagro, desempenhando um papel crucial na construção da base de dados do GeoFeosight. Durante esse processo, elaborei queries complexas que abrangiam diversas tabelas, assegurando a obtenção e harmonização eficaz de informações provenientes de diferentes fontes.
 
-Minha atuação como desenvolvedor backend envolveu a resolução de desafios técnicos relacionados à eficiência das queries e à otimização do desempenho do sistema. Trabalhando em estreita colaboração com a equipe, busquei as melhores práticas para garantir que as consultas aos dados fossem rápidas, precisas e escaláveis.
+Um aspecto crucial do meu trabalho envolveu a implementação de práticas relacionadas à Lei Geral de Proteção de Dados (LGPD). Garanti a aplicação do conceito de exclusão de dados do usuário final, assegurando que essa exclusão fosse efetiva não apenas no sistema principal, mas também nos backups e nos processos de restauração. Essa abordagem ética e legal foi implementada utilizando MongoDB e PostgreSQL, reforçando a segurança e conformidade com a legislação vigente.
 
 <details>
-<summary>Queries & Backend</summary>
+<summary>Queries com filtros</summary>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/8ae6728d-10a4-4c03-a96c-76186789df65"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/1b1a1353-a36c-4839-bea5-a1ffe3df1880"/>
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/290cf709-1c2f-44e8-8229-96b7536f34b8"/>
+  ↳ A query mencionada representa o núcleo vital da nossa aplicação, funcionando como o motor central que realiza chamadas ao banco de dados, incorporando os JOINs essenciais para extrair os dados destinados à exibição em um Sistema de Informação Geográfica (GIS). No contexto desse sistema, os dados resultantes da query são mapeados e visualizados, plotando as glebas de forma significativa.
+Observa-se a presença de vários filtros na query, os quais são capturados pelo frontend e posteriormente transmitidos ao backend. Essa abordagem permite uma montagem eficiente e performática da query, adaptando-se dinamicamente às necessidades do usuário e garantindo uma resposta ágil.
+Para otimizar o controle de informações críticas, como coordenadas e Ref Bacen (Relatório de Estabilidade Financeira do Banco Central), empreguei técnicas avançadas, incluindo String Concatenate e Group By. Essas práticas refinadas contribuíram significativamente para aprimorar a qualidade dos dados, proporcionando uma utilização mais eficaz e precisa. O emprego dessas estratégias não apenas elevou a performance, mas também fortaleceu a integridade e utilidade dos dados no contexto do nosso sistema.
+</details>
 
+<details>
+<summary>Exclusão dos Dados (LGPD)</summary>
+
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/dcbd16a3-ab5b-4031-8574-cc25766ffc09"/>
+   ↳ Na função atualizar_usuario realizo uma estratégia de "anonimização dos dados" ou seja, altero os dados do usuário solicitante para strings "****" e no e-mail gerei emails aleatórios @excluido.com. Essa estratégia permite excluir os dados do usuário sem quebrar a integridade referencial do Banco Relacional e na geração do e-mail aleatório para respeitar a regra do Unique Key da coluna. Vale ressaltar que os ID's com a data excluida é salva em outro banco para garantir sempre que os usuários solicitantes jamais voltem ao sistema, respeitando assim a legilação vigente.
 </details>
 
 <h3> Aprendizados Efetivos HS </h3>
