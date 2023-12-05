@@ -511,7 +511,7 @@ O projeto GeoForesight tem como propósito otimizar a gestão de dados do progra
 <h3> Solução </h3>
 Houve a necessidade de aprimorar o gerenciamento de dados do Proagro, percebendo uma lacuna na eficiência e integração do processo atual. A ausência de automação na coleta e análise de dados representa um obstáculo significativo para a tomada de decisões estratégicas, tanto para os produtores quanto para as autoridades governamentais.
 
-Foi desenvolvida a aplicação GeoFeosight, um serviço inovador denominado ProagroGIS. Este serviço automatiza o download de dados do Proagro e informações de sensoriamento remoto. Os usuários têm a facilidade de configurar o serviço através de um menu intuitivo, e em situações de erro, a aplicação emite alertas proativos. Além disso, a solução armazena meticulosamente os metadados dos arquivos, alimentando um painel de controle que possibilita o monitoramento em tempo real da execução do serviço e a realização de análises detalhadas.
+Foi desenvolvida a aplicação GeoForesight, um serviço inovador denominado ProagroGIS. Este serviço automatiza o download de dados do Proagro e informações de sensoriamento remoto. Os usuários têm a facilidade de configurar o serviço através de um menu intuitivo, e em situações de erro, a aplicação emite alertas proativos. Além disso, a solução armazena meticulosamente os metadados dos arquivos, alimentando um painel de controle que possibilita o monitoramento em tempo real da execução do serviço e a realização de análises detalhadas.
 
 <details>
 <summary>Design da aplicação</summary>
@@ -536,7 +536,7 @@ Foi desenvolvida a aplicação GeoFeosight, um serviço inovador denominado Proa
 
 <h3> Contribuições pessoais </h3>
 <h4> Scrum Master </h4>
-Ao longo do desenvolvimento do GeoFeosight, assumi um papel multifacetado como Scrum Master e Desenvolvedor Backend, desempenhando funções cruciais na concepção e implementação da solução.
+Ao longo do desenvolvimento do GeoForesight, assumi um papel multifacetado como Scrum Master e Desenvolvedor Backend, desempenhando funções cruciais na concepção e implementação da solução.
 
 Como Scrum Master, dediquei-me a facilitar a aplicação eficiente das práticas ágeis, promovendo a colaboração e a comunicação entre os membros da equipe. Coordenando sprints e garantindo a entrega contínua de incrementos funcionais, busquei otimizar o fluxo de trabalho, resultando em um desenvolvimento ágil e alinhado aos objetivos do projeto.
 
@@ -548,7 +548,7 @@ Como Scrum Master, dediquei-me a facilitar a aplicação eficiente das práticas
   ↳ Como Scrum Master, coordenei a organização do projeto no ambiente GitHub em conjunto com a plataforma Zube. Nessa função, defini e pontuei tarefas, priorizando-as com base no nível de complexidade. A integração dessas ferramentas proporcionou total controle sobre as atividades, enquanto a interface visual atraente e intuitiva do Zube contribuiu significativamente para manter uma organização visual eficaz para a equipe. Essa abordagem permitiu uma gestão ágil e transparente do projeto, garantindo que as prioridades fossem claras e a execução das tarefas fosse eficiente.
 </details>
 <h4> Desenvolvedor Backend </h4>
-Como Desenvolvedor Backend, concentrei meus esforços na manipulação e integração de dados do Proagro, desempenhando um papel crucial na construção da base de dados do GeoFeosight. Durante esse processo, elaborei queries complexas que abrangiam diversas tabelas, assegurando a obtenção e harmonização eficaz de informações provenientes de diferentes fontes.
+Como Desenvolvedor Backend, concentrei meus esforços na manipulação e integração de dados do Proagro, desempenhando um papel crucial na construção da base de dados do GeoForesight. Durante esse processo, elaborei queries complexas que abrangiam diversas tabelas, assegurando a obtenção e harmonização eficaz de informações provenientes de diferentes fontes.
 
 Um aspecto crucial do meu trabalho envolveu a implementação de práticas relacionadas à Lei Geral de Proteção de Dados (LGPD). Garanti a aplicação do conceito de exclusão de dados do usuário final, assegurando que essa exclusão fosse efetiva não apenas no sistema principal, mas também nos backups e nos processos de restauração. Essa abordagem ética e legal foi implementada utilizando MongoDB e PostgreSQL, reforçando a segurança e conformidade com a legislação vigente.
 
