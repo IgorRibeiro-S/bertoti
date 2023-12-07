@@ -511,7 +511,7 @@ O projeto GeoForesight tem como propósito otimizar a gestão de dados do progra
 <h3> Solução </h3>
 Houve a necessidade de aprimorar o gerenciamento de dados do Proagro, percebendo uma lacuna na eficiência e integração do processo atual. A ausência de automação na coleta e análise de dados representa um obstáculo significativo para a tomada de decisões estratégicas, tanto para os produtores quanto para as autoridades governamentais.
 
-Foi desenvolvida a aplicação GeoForesight, um serviço inovador denominado ProagroGIS. Este serviço automatiza o download de dados do Proagro e informações de sensoriamento remoto. Os usuários têm a facilidade de configurar o serviço através de um menu intuitivo, e em situações de erro, a aplicação emite alertas proativos. Além disso, a solução armazena meticulosamente os metadados dos arquivos, alimentando um painel de controle que possibilita o monitoramento em tempo real da execução do serviço e a realização de análises detalhadas.
+Foi desenvolvida a aplicação GeoForesight. Este serviço automatiza o download de dados do Proagro e informações de sensoriamento remoto. Os usuários têm a facilidade de configurar o serviço através de um menu intuitivo, e em situações de erro, a aplicação emite alertas proativos. Além disso, a solução armazena meticulosamente os metadados dos arquivos, alimentando um painel de controle que possibilita o monitoramento em tempo real da execução do serviço e a realização de análises detalhadas.
 
 <details>
 <summary>Design da aplicação</summary>
