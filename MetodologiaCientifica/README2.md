@@ -1,14 +1,17 @@
 <h1> Igor Ribeiro Silva </h1>
 <h2> Introdução </h2>
 
-Olá, seja bem-vindo. Sou o Igor Ribeiro, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal.
+Olá, seja bem-vindo. Sou o Igor Ribeiro, formado em Banco de Dados pela FATEC Prof. Jessen Vidal.
 
-<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/e24cb92b-b4fc-4725-8f8b-45d49a48ae92.jpg" alt="Imagem" width="220">
+<img src="https://github.com/IgorRibeiro-S/bertoti/assets/81486915/e24cb92b-b4fc-4725-8f8b-45d49a48ae92.jpg" alt="Imagem" width="220">.
 
-<h3> Principais Conhecimentos </h3>
 
-<b>Java</b>
-Meu primeiro contato com a linguagem foi em 2021, durante as aulas na FATEC. Atualmente, utilizo e trabalho com Java (versões 8, 11 e 17), com foco principalmente no Back-end. Possuo um conhecimento sólido em Java, incluindo expressões lambda, padrões de projetos, persistência de dados, serviços web e micro serviços. Além disso, tenho experiência com alguns frameworks da linguagem, como Spring, SpringBoot, Quarkus, JavaFX e Hibernate ORM.
+Evolução Profissional:
+
+Iniciei minha trajetória profissional atuando no almoxarifado, mas logo surgiu a oportunidade de me tornar Vistoriador de Veículos. Com o tempo, meu interesse pela tecnologia cresceu, levando-me a explorar o ensino superior na FATEC. Desde então, evoluí para um desenvolvedor experiente, com especialização no Back-end. Possuo conhecimento sólido em Java (versões 8, 11 e 17) e experiência com frameworks como Spring, SpringBoot, Quarkus, JavaFX e Hibernate ORM.
+
+Futuro na IA:
+Atualmente, meu foco é expandir para a área de Inteligência Artificial, acreditando na sinergia entre programação e IA.
 
 <h2>Projeto 1: 1º Semestre de 2021</h2>
 <h3> Parceiro academico </h3>
@@ -88,6 +91,11 @@ Dentro alguns conhecimentos técnicos, posso destacar:
   ↳ No código acima é possível notar o run, a utilização de algumas bibliotecas e funções.
  </details>
 
+<h3> Aprendizados Efetivos em SS: Adaptação e Comunicação Efetiva </h3>
+
+No Projeto 1 do 1º Semestre de 2021, a equipe da Athena, focada em oferecer uma abordagem eficiente para gerenciar atividades acadêmicas, destacou a importância das soft skills de adaptação e comunicação efetiva. Enfrentando desafios e ajustes, a habilidade de adaptação fortaleceu a coesão da equipe. A comunicação clara e aberta foi crucial para o sucesso, especialmente na criação de uma ferramenta inclusiva para pessoas com deficiência visual. O projeto não só resultou em uma ferramenta inovadora, mas também enriqueceu os membros da equipe com aprendizados valiosos em soft skills, ressaltando a relevância dessas habilidades em empreendimentos acadêmicos e profissionais.
+
+
 
 <h2>Projeto 2: 2º Semestre de 2021</h2>
 <h3> Parceiro academico </h3>
@@ -154,6 +162,13 @@ O projeto proposto pelo parceiro Necto Systems foi o primeiro com o qual tive co
  
 Dentro desses pilares, também aprendi sobre como funcionam os métodos construtores, getters e setters. Além disso, adquiri conhecimento sobre convenções amplamente utilizadas na linguagem e no mercado de trabalho, como, por exemplo, CamelCase, getMétodo, setMétodo, etc.
 O Java implementa os quatro pilares de forma bastante intuitiva, o que facilita a compreensão por parte do desenvolvedor. A abstração, sendo o primeiro pilar, é implementada através de classes, que contêm propriedades e métodos de forma bastante simples. Já o encapsulamento é realizado por meio de propriedades privadas, auxiliadas por métodos especiais como getters e setters.
+
+
+<h3> Aprendizados Efetivos em SS: Negociação e gerenciamento de tempo</h3>
+
+No Projeto 2 do 2º Semestre de 2021 para a Necto Systems, a equipe enfrentou o desafio de desenvolver uma solução para monitoramento remoto de SGBDs e coleta de métricas. As soft skills de negociação com clientes e gerenciamento de tempo destacaram-se como essenciais. A negociação efetiva permitiu alinhar as expectativas do cliente à solução proposta, resultando em uma aplicação desktop inovadora que oferece monitoramento em tempo real e funcionalidades de pós-gerenciamento. O aprimoramento do gerenciamento de tempo contribuiu para uma entrega pontual e de alta qualidade, solidificando não apenas o sucesso técnico, mas também o desenvolvimento de soft skills valiosas na equipe.
+
+
 <h2>Projeto 3: 1º Semestre de 2022</h2>
 <h3> Parceiro academico </h3>
 Projeto Integrador, Fatec Prof. Jessen Vidal - 2022. 3° Semestre
@@ -264,6 +279,12 @@ Alguns pontos importantes de aprendizado nesse semestre foram:
 * Dados relacionais
 * conteinerização
 * Organização do diretório de arquivos
+
+<h3> Aprendizados Efetivos em SS: Trabalho em Equipe</h3>
+
+No Projeto 3 do 1º Semestre de 2022, a equipe destacou e fortaleceu significativamente a habilidade de trabalho em equipe. Ao concentrar-se na implementação inteligente de promoções em um E-commerce, a colaboração foi essencial. A visão do projeto visava criar um sistema flexível para gerenciar mecânicas de promoções, com atualizações eficientes. A solução proposta priorizou a coesão da equipe ao desenvolver um ambiente colaborativo, onde a comunicação aberta e a capacidade de adaptação foram fundamentais.
+
+
 <h1></h1>
 
 <h2>Projeto 4: 2º Semestre de 2022</h2>
@@ -364,6 +385,11 @@ Pensando na solução do problema deste projeto, foi possível desenvolver diver
 * Autenticação e Autorização (Spring security + JWT do SpringFramework) - A autenticação e autorização é fundamental na maioria dos serviços RESTful, então o aprendizado desta tecnologia se faz necessário para um desenvolvedor Back-end. 
 
 Neste semestre, atuei como desenvolvedor Back-end da aplicação, onde as tecnologias e conceitos aprendidos foram essenciais para o avanço e desenvolvimento do projeto em si. Também foi onde pude demonstrar técnicas e designs que são chave para resolução de um problema real. 
+
+<h3> Aprendizados Efetivos em SS: Empatia</h3>
+
+
+Durante o Projeto 4 do 2º Semestre de 2022, destaquei a soft skill da empatia ao adotar uma abordagem centrada no coletivo. Ao me colocar no lugar do cliente e do time de desenvolvedores, pude compreender profundamente as necessidades e desafios de ambas as partes. Isso não apenas me permitiu identificar a dor do cliente, mas também orientou a criação de uma plataforma web que atendesse de maneira abrangente a essas demandas. A empatia não só facilitou a compreensão das perspectivas diversas envolvidas, mas também foi fundamental para garantir uma solução que beneficiasse a todos, reforçando a importância dessa habilidade na colaboração eficaz e na criação de experiências positivas.
 
 <h2>Projeto 5: 1º Semestre de 2023</h2>
 <h3> Parceiro academico </h3>
