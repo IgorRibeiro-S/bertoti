@@ -520,6 +520,11 @@ Esses aprendizados foram fundamentais para aprimorar minhas habilidades em DevOp
  ↳ este workflow é acionado quando há push ou pull request nas branches específicas. Ele configura o ambiente Java, clona o repositório e, em seguida, executa os testes Maven do projeto. Isso é comum em projetos Java, onde é necessário garantir que os testes sejam executados automaticamente sempre que há alterações no código.
 </details>
 
+<h3> Aprendizados Efetivos em SS: Autonomia</h3>
+
+
+No projeto de automação de download e transferência para a nuvem, aprimorei significativamente minha autonomia. Tomei decisões independentes na integração complexa com a plataforma e na adaptação a mudanças estruturais. Desenvolvi scripts flexíveis, uma interface intuitiva para configuração do usuário, e implementei estratégias eficientes de tratamento de erros. Esses aprendizados destacaram a importância da autonomia ao enfrentar desafios complexos, evidenciando minha capacidade de tomar iniciativas para alcançar os objetivos propostos.
+
 
 <h2>Projeto 6: 2º Semestre de 2023</h2>
 <h3> Parceiro academico </h3>
@@ -598,6 +603,7 @@ Para otimizar o controle de informações críticas, como coordenadas e Ref Bace
 <h3> Aprendizados Efetivos HS </h3>
 Desenvolvi conhecimentos sólidos em várias vertentes da Inteligência Artificial (IA) e manipulação de dados, proporcionando uma base robusta para enfrentar desafios complexos no cenário tecnológico. Minha proficiência em Pandas aprimorou minha capacidade de manipular e analisar dados de maneira eficiente, enquanto o Scikit-Learn me permitiu implementar modelos de aprendizado de máquina, desde classificação até regressão.
 
+<h3> Aprendizados Efetivos SS Disciplina e Foco </h3>
 Aprofundei meu entendimento em análise de séries temporais, utilizando o ARIMA para realizar previsões precisas em contextos com padrões temporais. Na área de agrupamento de dados, explorei técnicas de clustering como K-Means e Hierarchical Clustering, permitindo-me identificar padrões e estruturas intrínsecas em conjuntos de dados complexos.
 
 No âmbito das Redes Neurais, concentrei-me na implementação de modelos de classificação, utilizando bibliotecas como TensorFlow e PyTorch. Essa jornada envolveu o estudo aprofundado de arquiteturas, otimizações e estratégias de treinamento, solidificando meu conhecimento nas complexidades das redes neurais.
@@ -605,3 +611,9 @@ No âmbito das Redes Neurais, concentrei-me na implementação de modelos de cla
 Além disso, adquiri habilidades significativas em otimização de banco de dados e consultas SQL, compreendendo como estruturar e indexar bancos de dados para otimizar o desempenho. No campo dos bancos de dados NoSQL, como o MongoDB, desenvolvi expertise em consultas eficientes e estratégias de indexação.
 
 Esses aprendizados não apenas ampliaram meu conhecimento técnico, mas também forneceram uma base sólida para contribuir de forma impactante em projetos que envolvem desde a manipulação inteligente de dados até a implementação de soluções avançadas de IA.
+
+
+No projeto GeoForesight, durante o semestre 2023-2, meu enfoque em soft skills, especialmente disciplina e foco, foi essencial. Como Scrum Master, a disciplina foi fundamental para facilitar eficientemente práticas ágeis, promovendo uma colaboração harmoniosa. Mantive o foco no objetivo do projeto, otimizando o fluxo de trabalho e garantindo entrega contínua.
+Na função de Desenvolvedor Backend, a disciplina se refletiu na abordagem meticulosa para manipular dados do Proagro e na implementação de práticas relacionadas à LGPD. O foco foi crucial para elaborar queries complexas e assegurar a conformidade ética e legal na exclusão de dados do usuário final.
+Essa experiência destacou a importância da disciplina para manter consistência e ordem no ambiente de trabalho, e o foco contínuo permitiu alcançar metas específicas em meio a desafios complexos. Essas soft skills foram fundamentais para o desenvolvimento técnico e para o sucesso global do projeto GeoForesight.
+
